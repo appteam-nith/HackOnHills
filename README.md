@@ -1,6 +1,6 @@
 # HackOnHills
 
-This repo will hold the source code for the official website of annual hackathon named **"Hack On Hills"** organized by AppTeam NITH.
+This repository will hold the source code for the official website of annual hackathon named **"Hack On Hills"** organized by AppTeam NITH.
 
 Contributors are always welcome :smile:
 
