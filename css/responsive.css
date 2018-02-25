@@ -1,0 +1,60 @@
+@media(max-width: 768px){
+	.header .nav .head  {
+		display: block;
+	}
+
+	.header {
+		width: 100%;
+		left: -100%;
+	}
+
+	.content.active {
+		left: 100%;
+	}
+
+	body.active {
+		overflow: hidden;
+	}
+}
+
+@media(min-width: 769px) and (max-width: 949px){
+	.fullOverlay.active {
+		display: block;
+		opacity: 1;
+	}
+
+	.header {
+		width: 30%;
+		left: -30%;
+	}
+
+	.content.active {
+		left: 30%;
+		filter: blur(1px);
+	}
+
+	body.active {
+		overflow: hidden;
+	}
+}
+
+@media(min-width: 950px){
+	.fullOverlay.active {
+		display: block;
+		opacity: 1;
+	}
+
+	.header {
+		width: 25%;
+		left: -25%;
+	}
+
+	.content.active {
+		left: 25%;
+		filter: blur(1px);
+	}
+
+	body.active {
+		overflow: hidden;
+	}
+}
