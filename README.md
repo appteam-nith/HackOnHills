@@ -4,7 +4,7 @@ This repository will hold the source code for the official website of annual hac
 
 Contributors are always welcome :smile:
 
-For any queries, open issues on this repo or email directly at hackonhills@gmail.com
+For any queries, open issues on this repository or email directly at hackonhills@gmail.com
 
 ## License
 This project is currently licensed under the GNU General Public License v3
