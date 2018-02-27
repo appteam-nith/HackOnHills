@@ -20,6 +20,10 @@
 		height: 40%;
 		width: auto;
 	}
+
+	.logo svg {
+		width: 200px;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 949px){
