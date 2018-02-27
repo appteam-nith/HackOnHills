@@ -21,8 +21,16 @@
 		width: auto;
 	}
 
+	.logo {
+		top: 40px;
+	}
+
 	.logo svg {
 		width: 200px;
+	}
+
+	.hamburger img {
+		height: 20px;
 	}
 }
 
