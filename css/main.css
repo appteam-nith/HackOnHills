@@ -162,14 +162,26 @@ body {
 	right: 0px;
 	transform: rotate(-5deg);
 }
+
 .logo{
 	text-align: center;
 	position: relative;
-	top: 350px;
+	top: 20px;
 	display: block;
 
 }
-.logo img{
+.logo svg {
 	width: 300px;
-	
+}
+
+.logo svg path {
+	stroke-dasharray: 2000;
+	stroke-dashoffset: 2000;
+	-webkit-transition: all 3s;
+	-moz-transition: all 3s;
+	transition: all 3s;
+}
+
+.logo svg path.active {
+	stroke-dashoffset: 0;
 }

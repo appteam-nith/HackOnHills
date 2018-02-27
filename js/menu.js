@@ -22,13 +22,14 @@
 		body.addClass('active');
 	});
 
-	document.getElementsByClassName("fullOverlay")[0].addEventListener("click", closeHeader);
-	document.getElementsByClassName("closeHeader")[0].addEventListener("click", closeHeader);
+	fullOverlay.click(closeHeader);
+	$('.closeHeader').click('click', closeHeader);
 
-	[].forEach.call(document.getElementsByClassName('navItem'), function(item, index){
-		item.addEventListener('click', function(){
-			$(navItems[index]).addClass('active');
+	[].forEach.call(navItems, function(item, index){
+		item = $(item);
+		item.click(function(){
 			$(navItems[active]).removeClass('active');
+			$(navItems[index]).addClass('active');
 			active = index;
 			closeHeader();
 			setTimeout(function(){
@@ -37,6 +38,16 @@
 				}, 300);
 			}, 300);
 		})
+	});
+
+	$(document).ready(function(){
+		$('.logo svg path').addClass('active');
+	});
+
+	document.addEventListener('scroll', function(){
+		if($('html, body').scrollTop()){
+
+		}
 	});
 	
 })();
