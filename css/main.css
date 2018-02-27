@@ -38,11 +38,15 @@ body {
 
 .header .nav .navItem {
 	padding: 15px 30px;
-	color: #174854;
+	color: #1b5664;
 	cursor: pointer;
 	font-family: 'Lilita One';
 	font-size: 1.2em;
 	border-top: 1px solid rgba(23, 72, 84, 0.1);
+	background-color: rgba(211, 220, 223, 1);
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	transition: background-color 0.2s;
 }
 
 .header .nav:last-child {
@@ -50,7 +54,11 @@ body {
 }
 
 .header .nav .navItem.active {
-	border-left: 0px solid rgba(23, 72, 84, 1);
+	color: #0b2228;
+}
+
+.header .nav .navItem:hover {
+	background-color: rgba(255,255,255,0.2);
 }
 
 .header .nav .head {
