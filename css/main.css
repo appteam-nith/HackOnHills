@@ -162,3 +162,14 @@ body {
 	right: 0px;
 	transform: rotate(-5deg);
 }
+.logo{
+	text-align: center;
+	position: relative;
+	top: 350px;
+	display: block;
+
+}
+.logo img{
+	width: 300px;
+	
+}
