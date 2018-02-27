@@ -46,6 +46,7 @@
 			ctx.closePath();
 		})
 		ctx.closePath();
+		cancelAnimationFrame(animation);
 		animation = window.requestAnimationFrame(draw);
 	}
 
