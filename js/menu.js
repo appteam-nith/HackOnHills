@@ -4,7 +4,8 @@
 		  header = $('.header'),
 		  content = $('.content'),
 		  fullOverlay = $('.fullOverlay'),
-		  navItems = $('.navItem');
+		  navItems = $('.navItem'),
+		  frames = $('.frame');
 
 	let active = 0;
 
@@ -34,7 +35,7 @@
 			closeHeader();
 			setTimeout(function(){
 				$('html, body').animate({
-					scrollTop: $($('.frame')[index]).offset().top
+					scrollTop: $(frames[index]).offset().top
 				}, 300);
 			}, 300);
 		})
@@ -42,11 +43,21 @@
 
 	$(document).ready(function(){
 		$('.logo svg path').addClass('active');
+		$('html, body').animate({
+			scrollTop: 0
+		}, 0);
+
 	});
 
 	document.addEventListener('scroll', function(){
-		if($('html, body').scrollTop()){
-
+		const scrollPos = $('html, body').scrollTop();
+		for(let i=frames.length-1; i>=0; --i){
+			if(scrollPos>=$(frames[i]).offset().top){
+				$(navItems[active]).removeClass('active');
+				$(navItems[i]).addClass('active');
+				active = i;
+				break;
+			}
 		}
 	});
 	
