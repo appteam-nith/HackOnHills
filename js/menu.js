@@ -46,7 +46,7 @@
 	});
 
 	$(document).ready(function(){
-		$('.logo svg path').addClass('active');
+		$('.logo').addClass('active');
 		$('html, body').animate({
 			scrollTop: 0
 		}, 0);

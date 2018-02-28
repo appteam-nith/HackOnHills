@@ -32,6 +32,26 @@
 	.hamburger img {
 		height: 20px;
 	}
+
+	.left-schedule {
+		padding: 7% 0px 3% 0px;
+	}
+
+	.left-schedule-content img {
+		height: 150px;
+	}
+
+	.right-schedule {
+		width: 85%;
+	}
+
+	.divider-middle {
+		width: 60%;
+	}
+
+	.divider-left, .divider-right {
+		font-size: 1em;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 949px){
@@ -52,6 +72,14 @@
 
 	body.active {
 		overflow: hidden;
+	}
+
+	.divider {
+		width: 85%;
+	}
+
+	.right-schedule {
+		width: 80%;
 	}
 }
 
