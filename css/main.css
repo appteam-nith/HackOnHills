@@ -249,6 +249,18 @@ body {
 	stroke-dashoffset: 0;
 }
 
+.top-schedule-content.travel svg path {
+	stroke-dasharray: 2200;
+	stroke-dashoffset: 2200;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+	transition: all 2s;
+}
+
+.top-schedule-content.travel svg.active path {
+	stroke-dashoffset: 0;
+}
+
 .top-schedule-content.code svg path {
 	stroke-dasharray: 1500;
 	stroke-dashoffset: 1500;

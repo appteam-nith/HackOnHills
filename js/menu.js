@@ -47,10 +47,11 @@
 
 	$(document).ready(function(){
 		$('.logo').addClass('active');
-		$('html, body').animate({
-			scrollTop: 0
+		setTimeout(function(){
+			$('html, body').animate({
+				scrollTop: 0
+			})
 		}, 0);
-
 	});
 
 	document.addEventListener('scroll', function(){
