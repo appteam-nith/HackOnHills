@@ -33,24 +33,34 @@
 		height: 20px;
 	}
 
-	.left-schedule {
-		padding: 7% 0px 3% 0px;
+	.appteam-logo img {
+		height: 40px;
 	}
 
-	.left-schedule-content img {
-		height: 150px;
+	.top-schedule {
+		padding: 50px 0px 50px 0px;
 	}
 
-	.right-schedule {
-		width: 85%;
+	.top-schedule-content svg {
+		height: 120px;
+	}
+
+	.bottom-schedule {
+		width: 90%;
+		font-size: 0.7em;
+		padding: 50px 0px 20px 0px;
 	}
 
 	.divider-middle {
-		width: 60%;
+		width: 50%;
 	}
 
 	.divider-left, .divider-right {
-		font-size: 1em;
+		font-size: 0.8em;
+	}
+
+	.divider-left:hover, .divider-right:hover {
+		font-size: 0.8em;
 	}
 }
 
