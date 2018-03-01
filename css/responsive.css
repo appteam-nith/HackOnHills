@@ -21,6 +21,12 @@
 		width: auto;
 	}
 
+	.frame1-text {
+		width: 90%;
+		left: 5%;
+		font-size: 0.8em;
+	}
+
 	.logo {
 		top: 40px;
 	}
@@ -67,6 +73,19 @@
 	.frame2 {
 		padding-bottom: 20px;
 	}
+
+	.frame3 {
+		min-height: auto;
+	}
+
+	.frame3 .gallery {
+		width: 90%;
+		left: 5%;
+	}
+
+	.frame3 .gallery img {
+		width: 80%;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 949px){
@@ -95,6 +114,10 @@
 
 	.right-schedule {
 		width: 80%;
+	}
+
+	.frame3 .gallery img {
+		width: 45%;
 	}
 }
 

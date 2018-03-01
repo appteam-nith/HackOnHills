@@ -181,6 +181,23 @@ body {
 	z-index: 5;
 }
 
+.frame1-text {
+	color: white;
+	font-family: 'Didact Gothic';
+	font-size: 1.1em;
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.frame1-text .date {
+	display: block;
+	font-size: 1.5em;
+	padding: 5px;
+	font-weight: bold;
+}
+
 .frame2 {
 	background-color: rgba(33, 103, 120, 1);
 	min-height: 110%;
@@ -352,9 +369,9 @@ body {
 	display: inline-block;
 	min-height: 50%;
 	color: white;
-	font-family: 'Lilita One';
+	font-family: 'Didact Gothic';
 	text-align: center;
-	padding: 3% 10px;
+	padding: 2% 10px;
 }
 
 .bottom-schedule-content {
@@ -376,12 +393,16 @@ body {
 
 .schedule-content {
 	font-size: 1.2em;
-	padding: 5px 0px;
+}
+
+.schedule-content a {
+	color: white;
 }
 
 .frame3 {
 	background-color: #11353E;
-	height: 110%;
+	padding: 75px 0px;
+	min-height: 100%;
 }
 
 .frame3 .rotated {
@@ -392,4 +413,56 @@ body {
 .frame3 .rotated2 {
 	background-color: #11353E;
 	z-index: 2;
+}
+
+.frame3 .gallery {
+	position: relative;
+	z-index: 3;
+	width: 80%;
+	left: 10%;
+	text-align: center;
+}
+
+.frame3 .gallery img {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	width: 30%;
+	margin: 5px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.frame .gallery img:hover {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+.frame4 {
+	height: auto;
+	width: 100%;
+	background-color: #051114;
+	color: white;
+	font-family: 'Didact Gothic';
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.frame4 .heart {
+	color: #ff3333;
+}
+
+.footer-icons {
+	padding: 5px;
+}
+
+.footer-text {
+	padding: 5px;
+}
+
+.frame4 img {
+	width: 30px;
+	margin: 0px 5px;
 }
