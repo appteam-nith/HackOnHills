@@ -77,7 +77,7 @@
 
 	.frame3 {
 		min-height: auto;
-		padding: 30px 0px;
+		padding: 30px 0px 90px 0px;
 	}
 
 	.frame3 .gallery {
@@ -87,6 +87,11 @@
 
 	.frame3 .gallery img {
 		width: 80%;
+	}
+
+	.frame4 {
+		padding: 0px;
+		padding-bottom: 40px;
 	}
 }
 
