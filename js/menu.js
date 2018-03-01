@@ -14,11 +14,9 @@
 		content.removeClass('active');
 		fullOverlay.removeClass('active');
 		body.removeClass('active');
-		headerOpened = false;
 	}
 
 	$('.hamburger').click(function(){
-		headerOpened=true;
 		header.addClass('active');
 		content.addClass('active');
 		fullOverlay.addClass('active');
@@ -33,6 +31,7 @@
 		item.click(function(){
 			if(active == index)
 				return;
+			headerOpened=true;
 			$(navItems[active]).removeClass('active');
 			$(navItems[index]).addClass('active');
 			active = index;
@@ -40,9 +39,11 @@
 			setTimeout(function(){
 				$('html, body').animate({
 					scrollTop: $(frames[index]).offset().top
-				}, 300);
+				}, 300, function(){
+					headerOpened=false;
+				});
 			}, 300);
-		})
+		});
 	});
 
 	$(document).ready(function(){
@@ -59,7 +60,7 @@
 			return;
 		const scrollPos = $('html, body').scrollTop();
 		for(let i=frames.length-1; i>=0; --i){
-			if(scrollPos>=Math.trunc($(frames[i]).offset().top)){
+			if(scrollPos>=(Math.trunc($(frames[i]).offset().top)-window.innerHeight/2)){
 				$(navItems[active]).removeClass('active');
 				$(navItems[i]).addClass('active');
 				active = i;
