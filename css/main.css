@@ -129,11 +129,11 @@ body {
 .frame {
 	position: relative;
 	width: 100%;
-	height: 110%;
 }
 
 .frame1 {
 	background-color: rgba(213, 246, 255, 1);
+	height: 110%;
 }
 
 .frame1 img {
@@ -183,27 +183,35 @@ body {
 
 .frame2 {
 	background-color: rgba(33, 103, 120, 1);
+	min-height: 110%;
+	padding-bottom: 50px;
 }
 
-.frame2 .rotated {
+.rotated {
 	width: 60%;
 	height: 100px;
-	background-color: rgba(33, 103, 120, 1);
 	transform-origin: 0px 0px;
 	position: absolute;
 	top: -80px;
 	transform: rotate(5deg);
 }
 
-.frame2 .rotated2 {
+.rotated2 {
 	width: 60%;
 	height: 100px;
-	background-color: rgba(33, 103, 120, 1);
 	transform-origin: 100% 0px;
 	position: absolute;
 	top: -80px;
 	right: 0px;
 	transform: rotate(-5deg);
+}
+
+.frame2 .rotated {
+	background-color: rgba(33, 103, 120, 1);
+}
+
+.frame2 .rotated2 {
+	background-color: rgba(33, 103, 120, 1);
 }
 
 .schedule {
@@ -369,4 +377,19 @@ body {
 .schedule-content {
 	font-size: 1.2em;
 	padding: 5px 0px;
+}
+
+.frame3 {
+	background-color: #11353E;
+	height: 110%;
+}
+
+.frame3 .rotated {
+	background-color: #11353E;
+	z-index: 2;
+}
+
+.frame3 .rotated2 {
+	background-color: #11353E;
+	z-index: 2;
 }

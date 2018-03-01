@@ -63,6 +63,10 @@
 	.divider-left:hover, .divider-right:hover {
 		font-size: 0.8em;
 	}
+
+	.frame2 {
+		padding-bottom: 20px;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 949px){
