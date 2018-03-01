@@ -400,18 +400,18 @@ body {
 }
 
 .frame3 {
-	background-color: #11353E;
+	background-color: #174854;
 	padding: 75px 0px;
 	min-height: 100%;
 }
 
 .frame3 .rotated {
-	background-color: #11353E;
+	background-color: #174854;
 	z-index: 2;
 }
 
 .frame3 .rotated2 {
-	background-color: #11353E;
+	background-color: #174854;
 	z-index: 2;
 }
 
@@ -442,6 +442,34 @@ body {
 
 .frame4 {
 	height: auto;
+	padding: 30px 0px 50px 0px;
+	background-color: #10333C;
+	color: white;
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+.frame4 .rotated {
+	background-color: #10333C;
+	z-index: 2;
+}
+
+.frame4 .rotated2 {
+	background-color: #10333C;
+	z-index: 2;
+}
+
+.frame4-text {
+	z-index: 3;
+	position: relative;
+}
+
+.frame4 a {
+	color: white;
+}
+
+.frame5 {
+	height: auto;
 	width: 100%;
 	background-color: #051114;
 	color: white;
@@ -450,7 +478,7 @@ body {
 	padding: 10px 0px;
 }
 
-.frame4 .heart {
+.frame5 .heart {
 	color: #ff3333;
 }
 
@@ -462,7 +490,7 @@ body {
 	padding: 5px;
 }
 
-.frame4 img {
+.frame5 img {
 	width: 30px;
 	margin: 0px 5px;
 }
