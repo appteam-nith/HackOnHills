@@ -20,3 +20,4 @@ This project is currently licensed under the GNU General Public License v3
 - [Narendra Dodwaria](https://github.com/narendra36)
 - [Kartik Saxena](https://github.com/SaxenaKartik)
 - [Goutham Reddy](https://github.com/zeus512)
+- [Pradyuman](https://github.com/legendary-acp)
