@@ -8,6 +8,14 @@ Contributors are always welcome :smile:
 
 For any queries, open issues on this repository or email directly at hackonhills@gmail.com
 
+### Current Status :-
+ - [x] Website: Live
+ - [x] Upload Sponsors' Brochure
+ - [ ] Add Other Content
+   - [ ] FAQs
+   - [ ] Contacts
+
+
 ## License
 This project is currently licensed under the GNU General Public License v3
 
