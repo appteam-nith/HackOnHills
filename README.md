@@ -8,12 +8,12 @@ Contributors are always welcome :smile:
 
 For any queries, open issues on this repository or email directly at hackonhills@gmail.com
 
-### Current Status :-
+### TODOS :-
  - [x] Website: Live
  - [x] Upload Sponsors' Brochure
  - [ ] Add Other Content
-   - [ ] FAQs
-   - [ ] Contacts
+ - [ ] FAQs
+ - [ ] Contacts
 
 
 ## License
