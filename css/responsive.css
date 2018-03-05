@@ -93,6 +93,19 @@
 		padding: 0px;
 		padding-bottom: 40px;
 	}
+
+	.frame4 .sponsor-icons {
+		width: 90%;
+	}
+
+	.sponsor-icons .sponsor-icon img {
+		width: 60%
+	}
+
+	.sponsor-icons .sponsor-icon {
+		width: 100%;
+		padding: 5px;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 949px){
