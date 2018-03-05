@@ -459,9 +459,34 @@ body {
 	z-index: 2;
 }
 
-.frame4-text {
+.frame4 .sponsor-icons {
+	width: 80%;
+	background-color: rgba(255,255,255,0.7);
+	padding: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.sponsor-icons .sponsor-icon {
+	width: 30%;
+	display: inline-block;
+	padding: 10px 0px;
+	vertical-align: middle;
+}
+
+.sponsor-icons .sponsor-icon img {
+	width: 80%;
+}
+
+.frame4-content {
 	z-index: 3;
 	position: relative;
+}
+
+.frame4-text {
+	padding: 0px 10px;
 }
 
 .frame4 a {
