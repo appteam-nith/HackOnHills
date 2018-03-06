@@ -25,6 +25,7 @@ This project is currently licensed under the GNU General Public License v3
 
 ## Contributors
 - [Sukhbir Singh](https://github.com/sukhbir-singh)
+- [Jalaz Kumar](https://github.com/jaykay12)
 - [Narendra Dodwaria](https://github.com/narendra36)
 - [Kartik Saxena](https://github.com/SaxenaKartik)
 - [Goutham Reddy](https://github.com/zeus512)
