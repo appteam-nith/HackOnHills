@@ -493,6 +493,10 @@ body {
 	color: white;
 }
 
+.sponsor-icons .sponsor-icon.advantIcon img {
+	width: 50%;
+}
+
 .frame5 {
 	height: auto;
 	width: 100%;
