@@ -99,17 +99,26 @@
 	}
 
 	.sponsor-icons .sponsor-icon img {
-		width: 60%
+		width: 100%
 	}
 
 	.sponsor-icons .sponsor-icon {
-		width: 100%;
+		width: 49%;
 		padding: 5px;
 	}
 
 	.sponsor-icons .sponsor-icon.advantIcon img {
 		width: auto;
 		height: 90px;
+	}
+
+	.sponsor-icons .sponsor-icon.rawIcon {
+		padding-top: 15px;
+	}
+
+	.sponsor-icons .sponsor-icon.rawIcon img {
+		height: 50px;
+		width: auto;
 	}
 }
 

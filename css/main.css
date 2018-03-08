@@ -497,6 +497,17 @@ body {
 	width: 50%;
 }
 
+.sponsor-icons .sponsor-icon.rawIcon img {
+	width: 40%;
+}
+
+.sponsorTitle {
+	color: #10333c;
+	text-decoration: underline;
+}
+
+
+
 .frame5 {
 	height: auto;
 	width: 100%;
