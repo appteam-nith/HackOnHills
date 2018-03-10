@@ -2,7 +2,7 @@
 	const topSchedule = $('.top-schedule-content'),
 		  bottomSchedule = $('.bottom-schedule-content');
 
-	let active = 0, total = topSchedule.length;
+	var active = 0, total = topSchedule.length;
 
 	function init(){
 		$(topSchedule[active]).addClass('active');
