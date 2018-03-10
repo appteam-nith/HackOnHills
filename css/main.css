@@ -522,6 +522,11 @@ body {
 	z-index: 2;
 }
 
+.frame5-content h1 {
+	color: white;
+	font-family: 'Didact Gothic';
+}
+
 .frame5-content {
 	z-index: 3;
 	position: relative;
