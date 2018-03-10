@@ -7,7 +7,7 @@
 		  navItems = $('.navItem'),
 		  frames = $('.frame');
 
-	let active = 0, headerOpened = false;
+	var active = 0, headerOpened = false;
 
 	function closeHeader(){
 		header.removeClass('active');
@@ -59,7 +59,7 @@
 		if(headerOpened)
 			return;
 		const scrollPos = $('html, body').scrollTop();
-		for(let i=frames.length-1; i>=0; --i){
+		for(var i=frames.length-1; i>=0; --i){
 			if(scrollPos>=(Math.trunc($(frames[i]).offset().top)-window.innerHeight/2)){
 				$(navItems[active]).removeClass('active');
 				$(navItems[i]).addClass('active');

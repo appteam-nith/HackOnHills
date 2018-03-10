@@ -2,7 +2,7 @@
 	const canvas = document.getElementById('c'),
 		ctx = canvas.getContext('2d'),
 		count = 100;
-	let width, height, snow = new Array(), animation;
+	var width, height, snow = new Array(), animation;
 
 	function init(){
 		animation = window.requestAnimationFrame(draw);
@@ -12,7 +12,7 @@
 		canvas.width = window.innerWidth;
 		canvas.height = window.innerHeight;
 
-		for(let i=0; i<count; ++i){
+		for(var i=0; i<count; ++i){
 			snow[i] = {
 				x: Math.floor(Math.random()*width),
 				y: -Math.floor(Math.random()*height),

@@ -442,7 +442,7 @@ body {
 
 .frame4 {
 	height: auto;
-	padding: 30px 0px 50px 0px;
+	padding: 30px 0px 100px 0px;
 	background-color: #10333C;
 	color: white;
 	font-family: 'Didact Gothic';
@@ -506,9 +506,50 @@ body {
 	text-decoration: underline;
 }
 
-
-
 .frame5 {
+	width: 100%;
+	background-color: #0A2329;
+	padding: 50px 0px;
+}
+
+.frame5 .rotated {
+	background-color: #0A2329;
+	z-index: 2;
+}
+
+.frame5 .rotated2 {
+	background-color: #0A2329;
+	z-index: 2;
+}
+
+.frame5-content {
+	z-index: 3;
+	position: relative;
+	text-align: center;
+}
+
+.faq {
+	text-align: left;
+	display: inline-block;
+	color: white;
+	width: 80%;
+	font-family: 'Didact Gothic';
+	margin-bottom: 25px;
+}
+
+.question {
+	font-size: 1.3em;
+	padding: 8px 0px;
+}
+
+.answer {
+	font-size: 1em;
+	border-left: 1px solid white;
+	padding-left: 10px;
+	color: rgba(255,255,255,0.7);
+}
+
+.frame6 {
 	height: auto;
 	width: 100%;
 	background-color: #051114;
@@ -518,7 +559,7 @@ body {
 	padding: 10px 0px;
 }
 
-.frame5 .heart {
+.frame6 .heart {
 	color: #ff3333;
 }
 
@@ -530,7 +571,7 @@ body {
 	padding: 5px;
 }
 
-.frame5 img {
+.frame6 img {
 	width: 30px;
 	margin: 0px 5px;
 }
