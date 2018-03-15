@@ -12,7 +12,7 @@ For any queries, open issues on this repository or email directly at hackonhills
  - [x] Website: Live
  - [x] Upload Sponsors' Brochure
  - [ ] Add Other Content
- - [ ] FAQs
+ - [X] FAQs
  - [ ] Contacts
 
 
@@ -30,3 +30,4 @@ This project is currently licensed under the GNU General Public License v3
 - [Kartik Saxena](https://github.com/SaxenaKartik)
 - [Goutham Reddy](https://github.com/zeus512)
 - [Pradyuman](https://github.com/legendary-acp)
+- [B Jatin Rao](https://github.com/Jatin0312)
