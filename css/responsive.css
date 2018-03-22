@@ -107,6 +107,14 @@
 		padding: 5px;
 	}
 
+	.sponsor-icons .sponsor-icon.main-sponsor {
+		width: 49%;
+	}
+
+	.sponsor-icons .sponsor-icon.secondary-sponsor {
+		width: 40%;
+	}
+
 	.sponsor-icons .sponsor-icon.advantIcon img {
 		width: auto;
 		height: 90px;
