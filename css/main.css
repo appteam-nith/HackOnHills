@@ -476,6 +476,14 @@ body {
 	vertical-align: middle;
 }
 
+.sponsor-icons .sponsor-icon.main-sponsor {
+	width: 45%;
+}
+
+.sponsor-icons .sponsor-icon.secondary-sponsor {
+	width: 25%;
+}
+
 .sponsor-icons .sponsor-icon img {
 	width: 80%;
 }
