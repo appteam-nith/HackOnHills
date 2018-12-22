@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 507.99997 78.790413"
+   height="297.79053"
+   width="1920"
+   sodipodi:docname="try1.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     y="4.5437744e-15"
+     x="0"
+     height="78.790413"
+     width="508"
+     id="rect812"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0" />
+  <path
+     style="opacity:1;fill:#669999;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect814"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccczzzcc" >
+
+     <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="15s" values="m 0,0 h 508 v 54.801342 c 0,0 -85.26639,-20.390706 -127.59972,-20.390706 -42.33334,0 -84.06695,20.390706 -126.40028,20.390706 -42.33333,0 -136.84289,-41.38114 -179.176218,-41.38114 C 32.490446,13.420202 0,54.801342 0,54.801342 Z; m 0,0 h 508 v 54.801342 c 0,0 -66.07514,-44.379773 -108.40847,-44.379773 -42.33334,0 -103.2582,44.379773 -145.59153,44.379773 -42.33333,0 -109.25546,-22.789613 -151.58879,-22.789613 C 60.077873,32.011729 0,54.801342 0,54.801342 Z ;m 0,0 h 508 v 54.801342 c 0,0 -85.26639,-20.390706 -127.59972,-20.390706 -42.33334,0 -84.06695,20.390706 -126.40028,20.390706 -42.33333,0 -136.84289,-41.38114 -179.176218,-41.38114 C 32.490446,13.420202 0,54.801342 0,54.801342 Z" />
+
+   </path>
+</svg>
