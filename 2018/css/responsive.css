@@ -27,11 +27,16 @@
 }
 
 @media(max-width: 949px){
+	.frame1 {
+		height: auto;
+	}
+
 	.frame1-left {
 		position: relative;
 		width: 100%;
 		height: auto;
 		text-align: center;
+		margin-bottom: 80px;
 	}
 
 	.frame1-left .content {
