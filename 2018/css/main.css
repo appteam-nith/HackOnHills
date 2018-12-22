@@ -269,7 +269,8 @@ body {
 ***********************/
 
 .frame2 {
-	height: 100%;
+	min-height: 100%;
+	margin-bottom: 50px;
 }
 
 .frame2-left {
@@ -288,6 +289,7 @@ body {
 	height: 100%;
 	display: inline-block;
 	position: absolute;
+	text-align: center;
 	right: 0px;
 	z-index: 3;
 	padding: 20px;
@@ -295,6 +297,7 @@ body {
 
 .frame2-right .name {
 	font-family: primetime;
+	color: #293d3d;
 	text-align: center;
 	font-size: 2em;
 }
@@ -321,4 +324,58 @@ body {
 	top: 0%;
 	width: 650px;
 	height: auto;
+}
+
+.frame2 .timeline {
+	margin-top: 20px;
+	padding: 20px 0px;
+	border-left: 4px solid #669999;
+	width: 80%;
+	display: inline-block;
+}
+
+.schedule {
+	margin-top: 20px;
+	text-align: left;
+	padding: 0px 30px;
+	position: relative;
+	font-family: 'Didact Gothic';
+}
+
+.schedule .dot {
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+	border: 7px solid #293d3d;
+	background-color: white;
+	position: absolute;
+	top: 5px;
+	left: -12px;
+}
+
+.schedule-content {
+	padding: 0px 10px 20px 10px;
+	border-bottom: 2px solid #669999;
+}
+
+.schedule-date {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #293d3d;
+}
+
+.schedule-title {
+	font-size: 1.1em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
+.schedule-text {
+	font-size: 0.9em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
+.schedule-3 .schedule-content {
+	border-bottom: none;
 }

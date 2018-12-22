@@ -89,6 +89,18 @@
 		top: 50%;
 		width: 500px;
 	}
+
+	.frame2 {
+		height: auto;
+	}
+
+	.frame2-right {
+		padding-left: 30px;
+	}
+
+	.frame2 .timeline {
+		width: 100%;
+	}
 }
 
 @media(min-width: 769px) and (max-width: 949px){
