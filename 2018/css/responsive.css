@@ -26,6 +26,58 @@
 	}
 }
 
+@media(max-width: 949px){
+	.frame1-left {
+		position: relative;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	.frame1-left .content {
+		text-align: center;
+	}
+
+	.frame1-right {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding-top: 80px;
+		text-align: center;
+	}
+
+	.frame1-right img {
+		position: static;
+		width: 60%;
+	}
+
+	.frame2-left {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+
+	.frame2-right {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding: 0px;
+	}
+
+	.frame2-left img {
+		position: static;
+	}
+
+	.frame2 .img-back-left {
+		top: 5%;
+	}
+
+	.frame2 .img-back {
+		top: 40%;
+		width: 700px;
+	}
+}
+
 @media(min-width: 769px) and (max-width: 949px){
 	.fullOverlay.active {
 		display: block;
