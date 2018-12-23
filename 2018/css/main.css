@@ -386,7 +386,7 @@ body {
 
 .frame3 {
 	height: auto;
-	padding: 150px 0px 150px 0px;
+	padding: 150px 0px;
 	background-color: #669999;
 	color: white;
 	font-family: 'Didact Gothic';
@@ -405,7 +405,7 @@ body {
 	width: 100%;
 	height: auto;
 	position: absolute;
-	bottom: 0px;
+	bottom: -5px;
 	left: 0px;
 }
 
@@ -468,4 +468,47 @@ body {
 
 .sponsorTitle {
 	color: #10333c;
+}
+
+/***********************
+		FAQ PAGE
+***********************/
+
+.frame4 {
+	padding: 70px 0px;
+}
+
+.frame4-content .name {
+	color: #293d3d;
+	font-size: 2em;
+	font-family: 'primetime';
+	margin-bottom: 30px;
+}
+
+.frame4-content {
+	z-index: 3;
+	position: relative;
+	text-align: center;
+}
+
+.faq {
+	text-align: left;
+	display: inline-block;
+	color: #293d3d;
+	width: 80%;
+	font-family: 'Didact Gothic';
+	margin-bottom: 25px;
+}
+
+.question {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 8px 0px;
+}
+
+.answer {
+	font-size: 1em;
+	border-left: 2px solid #293d3d;
+	padding-left: 10px;
+	color: #293d3d;
 }

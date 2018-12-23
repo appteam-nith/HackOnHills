@@ -25,12 +25,11 @@
 		width: 35px;
 	}
 
-	.frame4 {
-		padding: 0px;
-		padding-bottom: 120px;
+	.frame3 {
+		padding: 100px 0px;
 	}
 
-	.frame4 .sponsor-icons {
+	.frame3 .sponsor-icons {
 		width: 90%;
 	}
 
@@ -63,6 +62,14 @@
 	.sponsor-icons .sponsor-icon.rawIcon img {
 		height: 50px;
 		width: auto;
+	}
+
+	.faq {
+		font-size: 0.8em;
+	}
+
+	.frame4 {
+		padding: 40px 0px;
 	}
 }
 
