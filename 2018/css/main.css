@@ -142,6 +142,7 @@ body {
 .frame {
 	position: relative;
 	width: 100%;
+	overflow: hidden;
 }
 
 /***********************
@@ -268,7 +269,8 @@ body {
 ***********************/
 
 .frame2 {
-	height: 100%;
+	min-height: 100%;
+	margin-bottom: 30px;
 }
 
 .frame2-left {
@@ -287,6 +289,7 @@ body {
 	height: 100%;
 	display: inline-block;
 	position: absolute;
+	text-align: center;
 	right: 0px;
 	z-index: 3;
 	padding: 20px;
@@ -294,6 +297,7 @@ body {
 
 .frame2-right .name {
 	font-family: primetime;
+	color: #293d3d;
 	text-align: center;
 	font-size: 2em;
 }
@@ -320,4 +324,207 @@ body {
 	top: 0%;
 	width: 650px;
 	height: auto;
+}
+
+.frame2 .timeline {
+	margin-top: 20px;
+	padding: 20px 0px;
+	border-left: 4px solid #669999;
+	width: 80%;
+	display: inline-block;
+}
+
+.schedule {
+	margin-top: 20px;
+	text-align: left;
+	padding: 0px 30px;
+	position: relative;
+	font-family: 'Didact Gothic';
+}
+
+.schedule .dot {
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+	border: 7px solid #293d3d;
+	background-color: white;
+	position: absolute;
+	top: 5px;
+	left: -12px;
+}
+
+.schedule-content {
+	padding: 0px 10px 20px 10px;
+	border-bottom: 2px solid #669999;
+}
+
+.schedule-date {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #293d3d;
+}
+
+.schedule-title {
+	font-size: 1.1em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
+.schedule-text {
+	font-size: 0.9em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
+.schedule-3 .schedule-content {
+	border-bottom: none;
+}
+
+/***********************
+	SPONSORS PAGE
+***********************/
+
+.frame3 {
+	height: auto;
+	padding: 150px 0px;
+	background-color: #669999;
+	color: white;
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+.frame3 .img-back {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.frame3 .img-back-bottom {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+}
+
+.frame3 .name {
+	font-family: primetime;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.frame3 .sponsor-icons {
+	width: 80%;
+	background-color: rgba(255,255,255,0.9);
+	padding: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+	/*box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);*/
+	text-align: center;
+}
+
+.sponsor-icons .sponsor-icon {
+	width: 30%;
+	display: inline-block;
+	padding: 10px 0px;
+	vertical-align: middle;
+}
+
+.sponsor-icons .sponsor-icon.main-sponsor {
+	width: 45%;
+}
+
+.sponsor-icons .sponsor-icon.secondary-sponsor {
+	width: 25%;
+}
+
+.sponsor-icons .sponsor-icon img {
+	width: 80%;
+}
+
+.frame3-content {
+	z-index: 3;
+	position: relative;
+}
+
+.frame3-text {
+	padding: 0px 10px;
+}
+
+.frame3 a {
+	color: white;
+}
+
+.sponsor-icons .sponsor-icon.advantIcon img {
+	width: 50%;
+}
+
+.sponsor-icons .sponsor-icon.rawIcon img {
+	width: 40%;
+}
+
+.sponsorTitle {
+	color: #10333c;
+}
+
+/***********************
+		FAQ PAGE
+***********************/
+
+.frame4 {
+	padding: 70px 0px;
+}
+
+.frame4-content .name {
+	color: #293d3d;
+	font-size: 2em;
+	font-family: 'primetime';
+	margin-bottom: 30px;
+}
+
+.frame4-content {
+	z-index: 3;
+	position: relative;
+	text-align: center;
+}
+
+.faq {
+	text-align: left;
+	display: inline-block;
+	color: #293d3d;
+	width: 80%;
+	font-family: 'Didact Gothic';
+	margin-bottom: 25px;
+}
+
+.question {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 8px 0px;
+}
+
+.answer {
+	font-size: 1em;
+	border-left: 2px solid #293d3d;
+	padding-left: 10px;
+	color: #293d3d;
+}
+
+.frame4 .img-back-left {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	top: 10%;
+	left: -10%;
+}
+
+.frame4 .img-back-right {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	top: 30%;
+	right: 5%;
 }
