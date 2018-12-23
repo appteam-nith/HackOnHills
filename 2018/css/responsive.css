@@ -75,6 +75,16 @@
 	.frame2 .name, .frame3 .name, .frame4 .name {
 		font-size: 1.7em;
 	}
+
+	.frame4 .img-back-left {
+		width: 400px;
+		top: 5%;
+	}
+
+	.frame4 .img-back-right {
+		top: 40%;
+		right: -10%;
+	}
 }
 
 @media(max-width: 949px){

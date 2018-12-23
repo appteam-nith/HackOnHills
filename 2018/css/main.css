@@ -512,3 +512,19 @@ body {
 	padding-left: 10px;
 	color: #293d3d;
 }
+
+.frame4 .img-back-left {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	top: 10%;
+	left: -10%;
+}
+
+.frame4 .img-back-right {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	top: 30%;
+	right: 5%;
+}
