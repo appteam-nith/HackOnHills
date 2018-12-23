@@ -270,7 +270,7 @@ body {
 
 .frame2 {
 	min-height: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .frame2-left {
@@ -378,4 +378,94 @@ body {
 
 .schedule-3 .schedule-content {
 	border-bottom: none;
+}
+
+/***********************
+	SPONSORS PAGE
+***********************/
+
+.frame3 {
+	height: auto;
+	padding: 150px 0px 150px 0px;
+	background-color: #669999;
+	color: white;
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+.frame3 .img-back {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.frame3 .img-back-bottom {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.frame3 .name {
+	font-family: primetime;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.frame3 .sponsor-icons {
+	width: 80%;
+	background-color: rgba(255,255,255,0.9);
+	padding: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+	/*box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);*/
+	text-align: center;
+}
+
+.sponsor-icons .sponsor-icon {
+	width: 30%;
+	display: inline-block;
+	padding: 10px 0px;
+	vertical-align: middle;
+}
+
+.sponsor-icons .sponsor-icon.main-sponsor {
+	width: 45%;
+}
+
+.sponsor-icons .sponsor-icon.secondary-sponsor {
+	width: 25%;
+}
+
+.sponsor-icons .sponsor-icon img {
+	width: 80%;
+}
+
+.frame3-content {
+	z-index: 3;
+	position: relative;
+}
+
+.frame3-text {
+	padding: 0px 10px;
+}
+
+.frame3 a {
+	color: white;
+}
+
+.sponsor-icons .sponsor-icon.advantIcon img {
+	width: 50%;
+}
+
+.sponsor-icons .sponsor-icon.rawIcon img {
+	width: 40%;
+}
+
+.sponsorTitle {
+	color: #10333c;
 }

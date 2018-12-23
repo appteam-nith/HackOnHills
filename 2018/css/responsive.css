@@ -24,6 +24,46 @@
 		height: 40px;
 		width: 35px;
 	}
+
+	.frame4 {
+		padding: 0px;
+		padding-bottom: 120px;
+	}
+
+	.frame4 .sponsor-icons {
+		width: 90%;
+	}
+
+	.sponsor-icons .sponsor-icon img {
+		width: 100%
+	}
+
+	.sponsor-icons .sponsor-icon {
+		width: 49%;
+		padding: 5px;
+	}
+
+	.sponsor-icons .sponsor-icon.main-sponsor {
+		width: 49%;
+	}
+
+	.sponsor-icons .sponsor-icon.secondary-sponsor {
+		width: 40%;
+	}
+
+	.sponsor-icons .sponsor-icon.advantIcon img {
+		width: auto;
+		height: 90px;
+	}
+
+	.sponsor-icons .sponsor-icon.rawIcon {
+		padding-top: 15px;
+	}
+
+	.sponsor-icons .sponsor-icon.rawIcon img {
+		height: 50px;
+		width: auto;
+	}
 }
 
 @media(max-width: 949px){
