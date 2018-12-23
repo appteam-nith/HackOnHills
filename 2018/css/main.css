@@ -434,15 +434,29 @@ body {
 }
 
 .sponsor-icons .sponsor-icon.main-sponsor {
-	width: 45%;
+	width: 100%;
+	display: block;
+	text-align: center;
 }
 
-.sponsor-icons .sponsor-icon.secondary-sponsor {
-	width: 25%;
+.sponsor-icons .sponsor-icon.main-sponsor img {
+	width: 40%;
+	height: auto;
+}
+
+.sponsor-icons .sponsor-icon.square-icon img {
+	width: 45%;
+	height: auto;
+}
+
+.sponsor-icons .sponsor-icon.middle-icon img {
+	width: 60%;
+	height: auto;
 }
 
 .sponsor-icons .sponsor-icon img {
 	width: 80%;
+	height: auto;
 }
 
 .frame3-content {
@@ -527,4 +541,36 @@ body {
 	position: absolute;
 	top: 30%;
 	right: 5%;
+}
+
+/***********************
+		FAQ PAGE
+***********************/
+
+.frame5 {
+	position: relative;
+	widows: 100%;
+	background-color: #669999;
+	padding: 30px 0px;
+	text-align: center;
+	color: white;
+	font-family: 'Didact Gothic';
+	font-weight: bold;
+}
+
+.frame5 .heart {
+	color: #e60000;
+}
+
+.footer-icons {
+	padding: 5px;
+}
+
+.footer-text {
+	padding: 5px;
+}
+
+.frame5 img {
+	width: 30px;
+	margin: 0px 5px;
 }
