@@ -71,6 +71,14 @@
 	.frame4 {
 		padding: 40px 0px;
 	}
+
+	.frame2, .frame3, .frame4 {
+		font-size: 0.9em;
+	}
+
+	.frame2 .name, .frame3 .name, .frame4 .name {
+		font-size: 1.7em;
+	}
 }
 
 @media(max-width: 949px){
