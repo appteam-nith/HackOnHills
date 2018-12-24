@@ -238,7 +238,7 @@ body {
 	-moz-transition: width 0.3s;
 	transition: width 0.3s;
 }
-	
+
 .frame1-left .devfolio button:hover {
 	color: #669999;
 }
@@ -527,4 +527,22 @@ body {
 	position: absolute;
 	top: 30%;
 	right: 5%;
+}
+
+
+#devfolio-apply-now .logo {
+    /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
+    fill: white;
+}
+
+.frame1-left .devfolio button:hover #devfolio-apply-now .logo {
+    /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
+    fill: #669999;
+}
+
+
+#devfolio-apply-now {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
 }
