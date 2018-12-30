@@ -64,7 +64,33 @@
 		width: auto;
 	}
 
+	.frame6 {
+		padding: 100px 0px;
+	}
+
+	.frame6 .track-list {
+		width: 90%;
+	}
+
+	.track-list .track-item img {
+		width: 100%
+	}
+
+	.track-list .track-item {
+		width: 49%;
+		padding: 5px;
+	}
+
+	.track-list .track-item.track1 {
+		width: 49%;
+	}
+
+	
 	.faq {
+		font-size: 0.8em;
+	}
+
+	.track-text{
 		font-size: 0.8em;
 	}
 
@@ -72,7 +98,7 @@
 		padding: 40px 0px;
 	}
 
-	.frame2 .name, .frame3 .name, .frame4 .name {
+	.frame2 .name, .frame3 .name, .frame4 .name, .frame6 .name {
 		font-size: 1.7em;
 	}
 
@@ -123,6 +149,12 @@
 		height: auto;
 	}
 
+	.frame5-left {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+
 	.frame1-left .name {
 		font-size: 2em;
 	}
@@ -162,6 +194,45 @@
 	.frame2 .timeline {
 		width: 100%;
 	}
+
+	.frame2-left {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+
+	.frame5-right {
+		position: relative;
+		width: 100%;
+		height: auto;
+		padding: 0px;
+	}
+
+	.frame5-left img {
+		position: static;
+	}
+
+	.frame5 .img-back-left {
+		top: 5%;
+	}
+
+	.frame5 .img-back {
+		top: 50%;
+		width: 500px;
+	}
+
+	.frame5 {
+		height: auto;
+	}
+
+	.frame5-right {
+		padding-left: 30px;
+	}
+
+	.frame5 .diversity {
+		width: 100%;
+	}
+
 }
 
 @media(min-width: 769px) and (max-width: 949px){

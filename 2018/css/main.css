@@ -264,6 +264,9 @@ body {
 	height: auto;
 }
 
+
+
+
 /***********************
 	SCHEDULE PAGE
 ***********************/
@@ -546,3 +549,160 @@ body {
     display: -webkit-box;
     display: flex;
 }
+
+/***********************
+	Diversity Page
+***********************/
+
+.frame5 {
+	min-height: 100%;
+	margin-bottom: 30px;
+}
+
+.frame5-right {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	right: 0px;
+	z-index: 3;
+	padding: 20px;
+}
+
+.frame5-left {
+	position: absolute;
+	left: 0px;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	z-index: 3;
+	padding: 50px 10px;
+	text-align: center;
+}
+
+.frame5-right .name {
+	font-family: primetime;
+	color: #293d3d;
+	text-align: center;
+	font-size: 2em;
+}
+
+.frame5-left img {
+	width: 70%;
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	height: auto;
+}
+
+.frame5 .img-back {
+	position: absolute;
+	right: -100px;
+	top: 20%;
+	width: 600px;
+	height: auto;
+}
+
+.frame5 .img-back-left {
+	position: absolute;
+	left: -100px;
+	top: 0%;
+	width: 650px;
+	height: auto;
+}
+
+.frame5 .diversity {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 1.2em;
+	font-family: 'Didact Gothic';
+	width: 85%;
+	
+}
+
+/***********************
+	Tracks Page
+***********************/
+
+.frame6 {
+	height: auto;
+	padding: 150px 0px;
+	background-color: #669999;
+	color: white;
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+.frame6-content {
+	z-index: 3;
+	position: relative;
+}
+
+.frame6 .img-back {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.frame6 .img-back-bottom {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+}
+
+.frame6 .name {
+	font-family: primetime;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.frame6 .subtext {
+	font-family: primetime;
+	color: #E0EBEB;
+	font-size: 1.6em;
+	margin-bottom: 30px;
+}
+.track-text {
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 8px 0px;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	width: 80%;
+	font-family: 'Didact Gothic';
+}
+
+.frame6 .track-list {
+	width: 80%;
+	background-color: rgba(255,255,255,0.9);
+	padding: 20px;
+	display: inline-block;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.track-list .track-item {
+	width: 30%;
+	display: inline-block;
+	padding: 10px 0px;
+	vertical-align: middle;
+}
+
+.track-list .track-item.track1 {
+	width: 45%;
+}
+
+.tracks:hover {
+	background-color: #6bc8b0;
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+	padding:20px;
+	transition: 0.4s;
+  }
