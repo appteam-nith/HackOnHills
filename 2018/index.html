@@ -13,6 +13,28 @@
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			let devfolioOptions = {
+					buttonSelector: '#devfolio-apply-now',
+					key: 'hackonhills',
+			}
+
+			let script = document.createElement('script');
+			script.src = "https://apply.devfolio.co";
+			document.head.append(script);
+
+			script.onload = function () {
+					new Devfolio(devfolioOptions);
+			}
+
+			script.onerror = function () {
+					document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+							window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+					});
+			}
+		});
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -51,20 +73,20 @@
 					<div class="devfolio">
 						<button class="devfolio">
 							<div class="button-back"></div>
-							<div class="button-text"> Apply with Devfolio </div>
+							<div class="button-text" id="devfolio-apply-now"> Apply with Devfolio </div>
 						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="frame frame2">
-			<img class="img-back-left" src="./images/back-3.svg"> 
-			<img class="img-back" src="./images/back-2.svg"> 
+			<img class="img-back-left" src="./images/back-3.svg">
+			<img class="img-back" src="./images/back-2.svg">
 			<div class="frame2-left">
 				<img src="./images/frame1-right.svg">
 			</div>
 			<div class="frame2-right">
-				<div class="name"> Timeline </div>	
+				<div class="name"> Timeline </div>
 				<div class="timeline">
 					<div class="schedule schedule-1">
 						<div class="dot"></div>
@@ -164,7 +186,7 @@
 					<div class="answer">
 						Hack on hills is offline event and as a participant you need to be present at NIT Hamirpur campus one or two day before the event at least.
 					</div>
-				
+
 				</div>
 				<div class="faq">
 					<div class="question">
