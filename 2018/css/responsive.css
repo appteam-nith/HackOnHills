@@ -25,11 +25,11 @@
 		width: 35px;
 	}
 
-	.frame3 {
+	.frame5 {
 		padding: 100px 0px;
 	}
 
-	.frame3 .sponsor-icons {
+	.frame5 .sponsor-icons {
 		width: 90%;
 	}
 
@@ -57,7 +57,7 @@
 		font-size: 0.8em;
 	}
 
-	.frame4 {
+	.frame6 {
 		padding: 40px 0px;
 	}
 
@@ -65,12 +65,12 @@
 		font-size: 1.7em;
 	}
 
-	.frame4 .img-back-left {
+	.frame4 .img-back-left, .frame2 .img-back-left {
 		width: 400px;
 		top: 5%;
 	}
 
-	.frame4 .img-back-right {
+	.frame4 .img-back-right, .frame2 .img-back-left {
 		top: 40%;
 		right: -10%;
 	}
@@ -106,7 +106,7 @@
 		width: 60%;
 	}
 
-	.frame2-left {
+	.frame2-left, .frame4-left {
 		position: relative;
 		width: 100%;
 		height: auto;
@@ -120,36 +120,41 @@
 		font-size: 1em;
 	}
 
-	.frame2-right {
+	.frame2-right, .frame4-right {
 		position: relative;
 		width: 100%;
 		height: auto;
 		padding: 0px;
 	}
 
-	.frame2-left img {
+	.frame2-left img, .frame4-left img {
 		position: static;
 	}
 
-	.frame2 .img-back-left {
+	.frame2 .img-back-left, .frame4 .img-back-left {
 		top: 5%;
 	}
 
-	.frame2 .img-back {
+	.frame2 .img-back, .frame4 .img-back {
 		top: 50%;
 		width: 500px;
 	}
 
-	.frame2 {
+	.frame2, .frame4 {
 		height: auto;
 	}
 
-	.frame2-right {
+	.frame2-right, .frame4-right {
 		padding-left: 30px;
 	}
 
-	.frame2 .timeline {
+	.frame4 .timeline {
 		width: 100%;
+	}
+
+	.frame2 .content {
+		font-size: 1em;
+		padding: 30px 20px;
 	}
 }
 
