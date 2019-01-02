@@ -74,6 +74,18 @@
 		top: 40%;
 		right: -10%;
 	}
+
+	.frame3 .track-icons {
+		width: 70%;
+	}
+
+	.frame3 .a-track {
+		width: 100%;
+	}
+
+	.frame3 .track-name {
+		font-size: 1em;
+	}
 }
 
 @media(max-width: 949px){
@@ -176,6 +188,20 @@
 
 	body.active {
 		overflow: hidden;
+	}
+
+	.frame3 .a-track {
+		width: 40%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+
+	.frame3 .track-icons {
+		width: 70%;
+	}
+
+	.frame3 .track-name {
+		font-size: 1em;
 	}
 }
 
