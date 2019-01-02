@@ -43,25 +43,14 @@
 	}
 
 	.sponsor-icons .sponsor-icon.main-sponsor {
-		width: 49%;
+		width: 100%;
+		display: block;
+		text-align: center;
 	}
 
-	.sponsor-icons .sponsor-icon.secondary-sponsor {
-		width: 40%;
-	}
-
-	.sponsor-icons .sponsor-icon.advantIcon img {
-		width: auto;
-		height: 90px;
-	}
-
-	.sponsor-icons .sponsor-icon.rawIcon {
-		padding-top: 15px;
-	}
-
-	.sponsor-icons .sponsor-icon.rawIcon img {
-		height: 50px;
-		width: auto;
+	.sponsor-icons .sponsor-icon.main-sponsor img {
+		width: 50%;
+		height: auto;
 	}
 
 	.faq {
