@@ -86,6 +86,10 @@
 	.frame3 .track-name {
 		font-size: 1em;
 	}
+
+	.frame4-right {
+		left: 0px;	
+	}
 }
 
 @media(max-width: 949px){
@@ -132,11 +136,16 @@
 		font-size: 1em;
 	}
 
+	.sponsor-name {
+		font-size: 1.2em;
+	}
+
 	.frame2-right, .frame4-right {
 		position: relative;
 		width: 100%;
 		height: auto;
 		padding: 0px;
+		left: 0px;
 	}
 
 	.frame2-left img, .frame4-left img {
