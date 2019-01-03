@@ -1,3 +1,13 @@
+@font-face {
+	font-family: primetime;
+	src: url("../fonts/PRIMETIME.ttf");
+}
+
+@font-face {
+	font-family: champagne;
+	src: url("../fonts/Champagne & Limousines.ttf");
+}
+
 div, body, ul, li {
 	margin: 0px;
 	padding: 0px;
@@ -37,20 +47,24 @@ body {
 }
 
 .header .nav .navItem {
+	left: -300px;
+}
+
+.header .nav .navItem.visible {
+	left: 0px;
+}
+
+.header .nav .navItem {
+	position: relative;
 	padding: 15px 30px;
 	color: #1b5664;
 	cursor: pointer;
-	font-family: 'Lilita One';
-	font-size: 1.2em;
-	border-top: 1px solid rgba(23, 72, 84, 0.1);
+	font-family: 'primetime';
+	font-size: 1em;
 	background-color: rgba(211, 220, 223, 1);
-	-webkit-transition: background-color 0.2s;
-	-moz-transition: background-color 0.2s;
-	transition: background-color 0.2s;
-}
-
-.header .nav:last-child {
-	border-bottom: 1px solid rgba(23, 72, 84, 0.1);
+	-webkit-transition: background-color 0.2s, left 0.2s;
+	-moz-transition: background-color 0.2s, left 0.2s;
+	transition: background-color 0.2s, left 0.2s;
 }
 
 .header .nav .navItem.active {
@@ -91,7 +105,6 @@ body {
 	left: 20px;
 	color: white;
 	z-index: 10;
-	font-size: 2em;
 	cursor: pointer;
 }
 
@@ -129,161 +142,479 @@ body {
 .frame {
 	position: relative;
 	width: 100%;
+	overflow: hidden;
 }
+
+/***********************
+	LANDING PAGE
+***********************/
 
 .frame1 {
-	background-color: rgba(213, 246, 255, 1);
-	height: 110%;
+	height: 120%;
+	background-color: #669999;
 }
 
-.frame1 img {
-	width: 100%;
+.frame1 .img-back {
+	width: 102%;
+	left: -1%;
 	height: auto;
 	position: absolute;
+	z-index: 2;
 	bottom: 0px;
 }
 
-.frame1 .overlay {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.3);
-}
-
-.logo {
-	text-align: center;
-	position: relative;
-	top: 20px;
-	display: block;
-	z-index: 6;
-
-}
-.logo svg {
-	width: 300px;
-}
-
-.logo svg path {
-	stroke-dasharray: 2000;
-	stroke-dashoffset: 2000;
-	-webkit-transition: all 3s;
-	-moz-transition: all 3s;
-	transition: all 3s;
-}
-
-.logo.active svg path {
-	stroke-dashoffset: 0;
-}
-
-#c {
+.frame1-left {
 	position: absolute;
 	left: 0px;
-	top: 0px;
-	z-index: 5;
-}
-
-.frame1-text {
-	color: white;
-	font-family: 'Didact Gothic';
-	font-size: 1.1em;
-	position: absolute;
-	bottom: 100px;
-	width: 100%;
+	width: 55%;
+	height: 100%;
+	display: inline-block;
+	z-index: 3;
+	padding: 50px 10px;
 	text-align: center;
 }
 
-.frame1-text .date {
-	display: block;
-	font-size: 1.5em;
-	padding: 5px;
+.frame1-left .content {
+	text-align: left;
+	display: inline-block;
+	width: max-content;
+	position: relative;
+	top: 20%;
+}
+
+.frame1-left .name {
+	display: inline-block;
+	font-family: primetime;
+	font-size: 3.5em;
+	color: white;
+}
+
+.frame1-left .date {
+	display: inline-block;
+	font-size: 1.7em;
 	font-weight: bold;
+	margin-top: 5px;
+	color: rgba(255,255,255,0.8);
+	font-family: 'Didact Gothic';
 }
 
-.rotated {
-	width: 60%;
-	height: 100px;
-	transform-origin: 0px 0px;
-	position: absolute;
-	top: -80px;
-	transform: rotate(5deg);
+.frame1-left .devfolio {
+	margin-top: 20px;
 }
 
-.rotated2 {
-	width: 60%;
+.frame1-left .devfolio button {
+	border: 2px solid rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0);
+	color: rgba(255,255,255,0.8);
+	font-family: 'Didact Gothic';
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 50px;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+	overflow: none;
+	position: relative;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: 0.3s;
+}
+
+.frame1-left .devfolio button .button-text {
+	position: relative;
+	z-index: 1;
+}
+
+.frame1-left .devfolio button .button-back {
+	background-color: rgba(255,255,255,0.8);
+	width: 0%;
 	height: 100px;
-	transform-origin: 100% 0px;
 	position: absolute;
-	top: -80px;
+	height: 46px;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+}
+
+.frame1-left .devfolio button:hover {
+	color: #669999;
+}
+
+.frame1-left .devfolio button:hover .button-back {
+	width: 100%;
+}
+
+.frame1-right {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	position: absolute;
 	right: 0px;
-	transform: rotate(-5deg);
+	z-index: 3;
 }
+
+.frame1-right img {
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	height: auto;
+}
+
+#devfolio-apply-now .logo {
+    /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
+    fill: white;
+}
+
+.frame1-left .devfolio button:hover #devfolio-apply-now .logo {
+    /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
+    fill: #669999;
+}
+
+
+#devfolio-apply-now {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
+.sponsor-name {
+	color: white;
+	font-family: 'Didact Gothic';
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.8);
+}
+
+/***********************
+	DIVERSITY PAGE
+***********************/
+
+.frame2 {
+	min-height: 100%;
+	margin-bottom: 30px;
+}
+
+.frame2-left {
+	position: absolute;
+	right: 0px;
+	width: 50%;
+	min-height: 100%;
+	display: inline-block;
+	z-index: 3;
+	padding: 50px 10px;
+	text-align: center;
+}
+
+.frame2-right {
+	width: 50%;
+	min-height: 100%;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	left: 0px;
+	z-index: 3;
+	padding: 20px;
+}
+
+.frame2-right .name {
+	font-family: primetime;
+	color: #293d3d;
+	text-align: center;
+	font-size: 2em;
+}
+
+.frame2-left img {
+	width: 70%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	height: auto;
+}
+
+.frame2 .img-back {
+	position: absolute;
+	right: -100px;
+	top: 20%;
+	width: 600px;
+	height: auto;
+}
+
+.frame2 .img-back-left {
+	position: absolute;
+	left: -100px;
+	top: 0%;
+	width: 650px;
+	height: auto;
+}
+
+.frame2 .content {
+	position: relative;
+	font-family: 'Didact Gothic';
+	font-size: 1.2em;
+	text-align: justify;
+	padding: 30px 50px;
+	line-height: 1.4em;
+}
+
+.frame2 a {
+	color: black;
+	text-decoration: none;
+}
+
+.frame2 a:visited {
+	color: black;
+}
+
+/***********************
+	  TRACKS PAGE
+***********************/
 
 .frame3 {
-	background-color: rgba(33, 103, 120, 1);
-	padding: 75px 0px;
-	min-height: 100%;
-}
-
-.frame3 .rotated {
-	background-color: rgba(33, 103, 120, 1);
-	z-index: 2;
-}
-
-.frame3 .rotated2 {
-	background-color: rgba(33, 103, 120, 1);
-	z-index: 2;
-}
-
-.frame3 .gallery {
-	position: relative;
-	z-index: 3;
-	width: 80%;
-	left: 10%;
-	text-align: center;
-}
-
-.frame3 .gallery img {
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100%);
-	width: 30%;
-	margin: 5px;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.frame .gallery img:hover {
-	-webkit-filter: grayscale(0%);
-	-moz-filter: grayscale(0%);
-	filter: grayscale(0%);
-}
-
-.frame4 {
 	height: auto;
-	padding: 30px 0px 100px 0px;
-	background-color: #10333C;
+	padding: 150px 0px;
+	background-color: #669999;
 	color: white;
 	font-family: 'Didact Gothic';
 	text-align: center;
 }
 
-.frame4 .rotated {
-	background-color: #10333C;
-	z-index: 2;
+.frame3 .img-back {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
-.frame4 .rotated2 {
-	background-color: #10333C;
-	z-index: 2;
+.frame3 .img-back-bottom {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
 }
 
-.frame4 .sponsor-icons {
+.frame3 .name {
+	font-family: primetime;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.frame3 .track-icons {
 	width: 80%;
-	background-color: rgba(255,255,255,0.7);
+	display: inline-block;
+}
+
+.frame3 .a-track {
+	width: 30%;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.frame3 .colorless {
+	position: relative;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+	padding: 20px;
+}
+
+.frame3 .colorful {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+	padding: 20px;
+	opacity: 0;
+}
+
+.frame3 .a-track:hover .colorful {
+	opacity: 1;
+}
+
+.frame3 .a-track img {
+	width: 50%;
+}
+
+.frame3 .track-name {
+	font-size: 1.1em;
+	padding: 20px 0px;
+	font-family: 'primetime';
+	color: #669999;
+	/*font-weight: bold;*/
+}
+
+/***********************
+	SCHEDULE PAGE
+***********************/
+
+.frame4 {
+	min-height: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.frame4-left {
+	position: absolute;
+	left: 0px;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	z-index: 3;
+	padding: 50px 10px;
+	text-align: center;
+}
+
+.frame4-right {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	text-align: center;
+	z-index: 3;
+	padding: 20px;
+}
+
+.frame4-right .name {
+	font-family: primetime;
+	color: #293d3d;
+	text-align: center;
+	font-size: 2em;
+}
+
+.frame4-left img {
+	width: 70%;
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	height: auto;
+}
+
+.frame4 .img-back {
+	position: absolute;
+	right: -100px;
+	top: 20%;
+	width: 600px;
+	height: auto;
+}
+
+.frame4 .img-back-left {
+	position: absolute;
+	left: -100px;
+	top: 0%;
+	width: 650px;
+	height: auto;
+}
+
+.frame4 .timeline {
+	margin-top: 20px;
+	padding: 20px 0px;
+	border-left: 4px solid #669999;
+	width: 80%;
+	display: inline-block;
+}
+
+.schedule {
+	margin-top: 20px;
+	text-align: left;
+	padding: 0px 30px;
+	position: relative;
+	font-family: 'Didact Gothic';
+}
+
+.schedule .dot {
+	height: 20px;
+	width: 20px;
+	border-radius: 50px;
+	border: 7px solid #293d3d;
+	background-color: white;
+	position: absolute;
+	top: 5px;
+	left: -12px;
+}
+
+.schedule-content {
+	padding: 0px 10px 20px 10px;
+	border-bottom: 2px solid #669999;
+}
+
+.schedule-date {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #293d3d;
+}
+
+.schedule-title {
+	font-size: 1.1em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
+.schedule-text {
+	font-size: 0.9em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
+.schedule-3 .schedule-content {
+	border-bottom: none;
+}
+
+/***********************
+	 SPONSORS PAGE
+***********************/
+
+.frame5 {
+	height: auto;
+	padding: 150px 0px;
+	background-color: #669999;
+	color: white;
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+.frame5 .img-back {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.frame5 .img-back-bottom {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+}
+
+.frame5 .name {
+	font-family: primetime;
+	color: white;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.frame5 .sponsor-icons {
+	width: 80%;
+	background-color: rgba(255,255,255,0.9);
 	padding: 20px;
 	display: inline-block;
 	margin-bottom: 20px;
-	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+	/*box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);*/
 	text-align: center;
 }
 
@@ -292,30 +623,47 @@ body {
 	display: inline-block;
 	padding: 10px 0px;
 	vertical-align: middle;
+	margin-bottom: 10px;
 }
 
 .sponsor-icons .sponsor-icon.main-sponsor {
-	width: 45%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-bottom: 0px;
 }
 
-.sponsor-icons .sponsor-icon.secondary-sponsor {
-	width: 25%;
+.sponsor-icons .sponsor-icon.main-sponsor img {
+	width: 40%;
+	height: auto;
+}
+
+.sponsor-icons .sponsor-icon.square-icon img {
+	width: 45%;
+	height: auto;
+}
+
+.sponsor-icons .sponsor-icon.middle-icon img {
+	width: 60%;
+	height: auto;
 }
 
 .sponsor-icons .sponsor-icon img {
 	width: 80%;
+	height: auto;
 }
 
-.frame4-content {
+.frame5-content {
 	z-index: 3;
 	position: relative;
 }
 
-.frame4-text {
+.frame5-text {
+	font-size: 1.2em;
 	padding: 0px 10px;
 }
 
-.frame4 a {
+.frame5 a {
 	color: white;
 }
 
@@ -329,31 +677,24 @@ body {
 
 .sponsorTitle {
 	color: #10333c;
-	text-decoration: underline;
 }
 
-.frame5 {
-	width: 100%;
-	background-color: #0A2329;
-	padding: 50px 0px;
+/***********************
+		FAQ PAGE
+***********************/
+
+.frame6 {
+	padding: 70px 0px;
 }
 
-.frame5 .rotated {
-	background-color: #0A2329;
-	z-index: 2;
+.frame6-content .name {
+	color: #293d3d;
+	font-size: 2em;
+	font-family: 'primetime';
+	margin-bottom: 30px;
 }
 
-.frame5 .rotated2 {
-	background-color: #0A2329;
-	z-index: 2;
-}
-
-.frame5-content h1 {
-	color: white;
-	font-family: 'Didact Gothic';
-}
-
-.frame5-content {
+.frame6-content {
 	z-index: 3;
 	position: relative;
 	text-align: center;
@@ -362,7 +703,7 @@ body {
 .faq {
 	text-align: left;
 	display: inline-block;
-	color: white;
+	color: #293d3d;
 	width: 80%;
 	font-family: 'Didact Gothic';
 	margin-bottom: 25px;
@@ -370,28 +711,50 @@ body {
 
 .question {
 	font-size: 1.3em;
+	font-weight: bold;
 	padding: 8px 0px;
 }
 
 .answer {
 	font-size: 1em;
-	border-left: 1px solid white;
+	border-left: 2px solid #293d3d;
 	padding-left: 10px;
-	color: rgba(255,255,255,0.7);
+	color: #293d3d;
 }
 
-.frame6 {
+.frame6 .img-back-left {
+	width: 600px;
 	height: auto;
-	width: 100%;
-	background-color: #051114;
+	position: absolute;
+	top: 10%;
+	left: -10%;
+}
+
+.frame6 .img-back-right {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	top: 30%;
+	right: 5%;
+}
+
+/***********************
+		 FOOTER
+***********************/
+
+.frame7 {
+	position: relative;
+	widows: 100%;
+	padding: 30px 0px;
+	background-color: #669999;
+	text-align: center;
 	color: white;
 	font-family: 'Didact Gothic';
-	text-align: center;
-	padding: 10px 0px;
+	font-weight: bold;
 }
 
-.frame6 .heart {
-	color: #ff3333;
+.frame7 .heart {
+	color: #e60000;
 }
 
 .footer-icons {
@@ -402,7 +765,12 @@ body {
 	padding: 5px;
 }
 
-.frame6 img {
+.footer-text a {
+	color: white;
+	text-decoration: none;
+}
+
+.frame7 img {
 	width: 30px;
 	margin: 0px 5px;
 }

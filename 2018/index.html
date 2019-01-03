@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Hack On Hills - 2019</title>
+	<title> Hack On Hills - 2018</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content ="width=device-width, initial-scale=1.0, user-scalable=no">
-	<meta name="description" content="Hack on Hills 4.0 - Fourth edition of annual hackathon organized by App Team NITH">
+	<meta name="description" content="Hack on Hills 3.0 - Third edition of annual hackathon organized by App Team NITH">
 	<meta name="keywords" content="Hackathon,NITH,NIT,Hamirpur,Hack,On,Hills,App,Team,2018,Nimbus,Hillffair">
 	<meta name="author" content="Saurabh Kumar <saurabh.k0402@gmail.com>">
 	<meta name="author" content="Atul Kumar <atul.kumar.prajapati02@gmail.com>">
-	<!-- <link rel="shortcut icon" href="./images/new_logo.png" type="image/x-icon" /> -->
+	<link rel="shortcut icon" href="./images/new_logo.png" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114940219-1"></script>
 	<script>
-		document.addEventListener('DOMContentLoaded', function () {
-			let devfolioOptions = {
-					buttonSelector: '#devfolio-apply-now',
-					key: 'hackonhills',
-			}
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-			let script = document.createElement('script');
-			script.src = "https://apply.devfolio.co";
-			document.head.append(script);
-
-			script.onload = function () {
-					new Devfolio(devfolioOptions);
-			}
-
-			script.onerror = function () {
-					document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-							window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-					});
-			}
-		});
+	  gtag('config', 'UA-114940219-1');
 	</script>
+
 </head>
 <body>
 	<div class="header">
@@ -46,12 +35,10 @@
 				</span>
 			</li>
 			<li class="navItem active"> Home </li>
-			<li class="navItem"> Diversity </li>
-			<!-- <li class="navItem"> Gallery </li> -->
-			<li class="navItem"> Tracks </li>
 			<li class="navItem"> Schedule </li>
+			<li class="navItem"> Gallery </li>
 			<li class="navItem"> Sponsors </li>
-			<li class="navItem"> FAQs </li>
+			<li class="navItem"> FAQ </li>
 		</ul>
 	</div>
 	<div class="fullOverlay"></div>
@@ -60,203 +47,93 @@
 			<img src="./images/menu.svg">
 		</div>
 		<div class="appteam-logo">
-			<!--<img src="./images/logo.svg" title="App Team NITH">-->
+			<a href="https://www.facebook.com/appteam.nith/" target="__blank"><img src="./images/app-team.png" title="App Team NITH"></a>
 		</div>
 		<div class="frame frame1">
-			<img src="./images/back-1.svg" class="img-back">
-			<div class="frame1-right">
-				<img src="./images/frame1-icon.svg">
+			<canvas id="c"></canvas>
+			<img src="./images/mountains.svg">
+			<div class="overlay"></div>
+
+			<!-- MAIN LOGO -->
+			
+			<div class="logo">
+				<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 720 720" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="logo.svg"> <defs id="defs4"> <inkscape:path-effect is_visible="true" id="path-effect3912" effect="spiro" /> <inkscape:path-effect is_visible="true" id="path-effect3910" effect="spiro" /> <inkscape:path-effect is_visible="true" id="path-effect4046" effect="spiro" /> <inkscape:path-effect is_visible="true" id="path-effect4044" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect3980" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect4820" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect4829" is_visible="true" /> <inkscape:path-effect is_visible="true" id="path-effect3034" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect4820-3" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3859" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3863" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3867" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3990" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3992" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3881" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3885" is_visible="true" /> </defs> <sodipodi:namedview id="base" pagecolor="#000000" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:zoom="0.50647962" inkscape:cx="321.15248" inkscape:cy="362.70838" inkscape:document-units="px" inkscape:current-layer="g3918" showgrid="false" showborder="true" inkscape:showpageshadow="false" inkscape:window-width="1311" inkscape:window-height="744" inkscape:window-x="55" inkscape:window-y="24" inkscape:window-maximized="1" /> <metadata id="metadata7"> <rdf:RDF> <cc:Work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /> <dc:title /> </cc:Work> </rdf:RDF> </metadata> <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-332.36218)"> <g id="g4792" transform="matrix(0.2361712,0,0,0.20697717,-98.4013,567.41921)"> <g id="g3073" /> </g> <g id="g4535" transform="translate(187.56925,400.80586)"> <g id="g3061" style="stroke:#000000;stroke-width:29.22423935;stroke-miterlimit:4;stroke-opacity:1;" transform="matrix(0.36822874,0,0,0.33672559,-745.55625,319.95085)" /> <g id="g3303" style="stroke:#000000;stroke-opacity:1"> <g id="g3918" style="stroke:#00ffff;stroke-opacity:1"> <g id="g4052" style="stroke:#ffffff;stroke-opacity:1"> <path style="fill:none;stroke:#ffffff;stroke-width:6.86240767999999957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="M -119.14069,413.85516 -57.297431,261.84039 -48.654456,307.4535 7.4880575,176.17307 143.67195,414.14878 z" id="path3779" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" /> <path style="fill:none;stroke:#ffffff;stroke-width:6.86240767999999957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="M -13.298503,413.73308 83.596226,136.83287 97.905991,188.55214 144.6859,27.006864 172.17836,107.57463 181.4693,71.716858 337.59142,414.59025 z" id="path3781" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc" /> <path sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" id="path3783" d="m 464.83879,413.95836 -127.52067,-237.11495 -5.76727,30.65862 -41.18138,-95.788 -114.0761,302.71734 z" style="fill:none;stroke:#ffffff;stroke-width:6.86240767999999957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" /> <path style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 96.63893,533.85369 139.8862,0 -65.13631,53.73366 -74.74989,-53.73366" id="path3978" inkscape:path-effect="#path-effect3980" inkscape:original-d="m 96.63893,533.85369 139.8862,0 -65.13631,53.73366 z" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" /> <g id="g3896" transform="matrix(0.3594084,0,0,0.24717474,-144.41714,445.20776)" style="stroke:#ffffff;stroke-width:17.78045845000000114;stroke-miterlimit:4;stroke-opacity:1;"> <g transform="matrix(0.40860792,0,0,0.41381217,214.47096,-129.02437)" id="g3018" style="stroke:#ffffff;stroke-width:43.24022674999999793;stroke-miterlimit:4;stroke-opacity:1;"> <path style="fill:none;stroke:#ffffff;stroke-width:43.24022674999999793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -440,732.36218 0,-480" id="path3020" inkscape:connector-curvature="0" /> <path style="fill:none;stroke:#ffffff;stroke-width:43.24022674999999793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -440,492.36218 200,0" id="path3022" inkscape:connector-curvature="0" /> <path style="fill:none;stroke:#ffffff;stroke-width:43.24022674999999793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -240,252.36218 0,480" id="path3024" inkscape:connector-curvature="0" /> </g> <g transform="matrix(0.38770111,0,0,0.428221,213.78276,-139.63553)" id="g3026" style="stroke:#ffffff;stroke-width:43.63756180000000029;stroke-miterlimit:4;stroke-opacity:1;"> <path style="fill:none;stroke:#ffffff;stroke-width:43.63756180000000029;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -160,732.36218 160,-458 160,458" id="path3028" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" /> <path style="fill:none;stroke:#ffffff;stroke-width:43.63756180000000029;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -120,412.36218 120,160 120,-160" id="path3030" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" /> </g> <path sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" inkscape:original-d="m 398.75023,-26.179604 -98.5725,98.572503 98.5725,98.572501" inkscape:path-effect="#path-effect3034" id="path3032" d="m 398.75023,-26.179604 -98.5725,98.572503 98.5725,98.572501" style="fill:none;stroke:#ffffff;stroke-width:17.78045845000000114;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" /> <g transform="matrix(0.40418571,0,0,0.40418571,244.50783,-123.83477)" id="g3036" style="stroke:#ffffff;stroke-width:43.99081421000000347;stroke-miterlimit:4;stroke-opacity:1;"> <path style="fill:none;stroke:#ffffff;stroke-width:43.99081421000000347;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 497.19009,249.50504 c 0,78.73526 0,160 0,240 0,80 0,157.00959 0,240" id="path3038" inkscape:connector-curvature="0" sodipodi:nodetypes="csc" /> <path style="fill:none;stroke:#ffffff;stroke-width:43.99081421000000347;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 706.58796,252.36218 -200,240 200,240" id="path3040" inkscape:connector-curvature="0" /> </g> </g> <g transform="matrix(0.10792099,0,0,0.12644222,-96.916605,400.16404)" style="stroke:#ffffff;stroke-width:45.36700438999999818;stroke-miterlimit:4;stroke-opacity:1;" id="g3055"> <path transform="matrix(0.91204638,0,0,1.0081671,1774.6053,-686.74742)" d="m 600,1172.3622 c 0,110.4569 -89.54305,200 -200,200 -110.45695,0 -200,-89.5431 -200,-200 0,-110.457 89.54305,-200.00002 200,-200.00002 110.45695,0 200,89.54302 200,200.00002 z" sodipodi:ry="200" sodipodi:rx="200" sodipodi:cy="1172.3622" sodipodi:cx="400" id="path3057" style="fill:none;stroke:#ffffff;stroke-width:47.31135559000000512;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;" sodipodi:type="arc" /> </g> <path sodipodi:nodetypes="cc" style="fill:none;stroke:#ffffff;stroke-width:5.29955195999999962;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 115.17019,471.20272 32.26634,-27.64478" id="path3059" inkscape:path-effect="#path-effect4820-3" inkscape:original-d="m 115.17019,471.20272 32.26634,-27.64478" inkscape:connector-curvature="0" /> <g id="g3065" transform="matrix(0.12466635,0,0,0.09902168,-126.71934,415.07086)" style="stroke:#ffffff;stroke-width:47.69791031000000459;stroke-miterlimit:4;stroke-opacity:1;"> <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" id="path3067" d="m 2408.5714,732.36218 0,-456 280,440 0,-464" style="fill:none;stroke:#ffffff;stroke-width:47.69791031000000459;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" /> </g> <g id="g3919" transform="matrix(0.38142819,0,0,0.24644811,-164.33465,445.26112)" style="stroke:#ffffff;stroke-width:17.28502273999999872;stroke-miterlimit:4;stroke-opacity:1;"> <g id="g3077" transform="matrix(0.40860792,0,0,0.40860792,1304.471,-125.16093)" style="stroke:#ffffff;stroke-width:42.30222321000000107;stroke-miterlimit:4;stroke-opacity:1;"> <g transform="matrix(1,0,0,1.0127365,0,-9.4551241)" id="g3913" style="stroke:#ffffff;stroke-width:42.03537750000000273;stroke-miterlimit:4;stroke-opacity:1;"> <path style="fill:none;stroke:#ffffff;stroke-width:42.03537750000000273;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -440,732.36218 0,-480" id="path3079" inkscape:connector-curvature="0" /> <path style="fill:none;stroke:#ffffff;stroke-width:42.03537750000000273;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -440,492.36218 200,0" id="path3081" inkscape:connector-curvature="0" /> <path style="fill:none;stroke:#ffffff;stroke-width:42.03537750000000273;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m -240,252.36218 0,480" id="path3083" inkscape:connector-curvature="0" /> </g> <path transform="matrix(2.4473339,0,0,2.4473339,-3192.4761,306.31058)" inkscape:connector-curvature="0" inkscape:original-d="m 1277.6434,-27.519755 0,199.881935" inkscape:path-effect="#path-effect3859" id="path3857" d="m 1277.6434,-27.519755 0,199.881935" style="fill:none;stroke:#ffffff;stroke-width:17.28502273999999872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" /> <g id="g3869" style="stroke:#ffffff;stroke-width:42.30222321000000107;stroke-miterlimit:4;stroke-opacity:1;"> <path style="fill:none;stroke:#ffffff;stroke-width:17.28502273999999872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 1360,-27.637817 0,199.999997 80,0" id="path3861" inkscape:path-effect="#path-effect3863" inkscape:original-d="m 1360,-27.637817 0,199.999997 80,0" inkscape:connector-curvature="0" transform="matrix(2.4473339,0,0,2.4473339,-3192.4761,306.31058)" /> <path style="fill:none;stroke:#ffffff;stroke-width:17.28502273999999872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 1360,59.289046 55.8141,113.073134" id="path3865" inkscape:path-effect="#path-effect3867" inkscape:original-d="m 1360,59.289046 55.8141,113.073134" inkscape:connector-curvature="0" transform="matrix(2.4473339,0,0,2.4473339,-3192.4761,306.31058)" sodipodi:nodetypes="cc" /> </g> <g transform="translate(308.36417,0)" id="g3873" style="stroke:#ffffff;stroke-width:42.30222321000000107;stroke-miterlimit:4;stroke-opacity:1;"> <path transform="matrix(2.4473339,0,0,2.4473339,-3192.4761,306.31058)" inkscape:connector-curvature="0" inkscape:original-d="m 1360,-27.637817 0,199.999997 80,0" inkscape:path-effect="#path-effect3863" id="path3875" d="m 1360,-27.637817 0,199.999997 80,0" style="fill:none;stroke:#ffffff;stroke-width:17.28502273999999872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" /> <path transform="matrix(2.4473339,0,0,2.4473339,-3192.4761,306.31058)" inkscape:connector-curvature="0" inkscape:original-d="m 1360,59.289046 55.8141,113.073134" inkscape:path-effect="#path-effect3867" id="path3877" d="m 1360,59.289046 55.8141,113.073134" style="fill:none;stroke:#ffffff;stroke-width:17.28502273999999872;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" sodipodi:nodetypes="cc" /> </g> <g transform="matrix(1,0,0,0.97483484,0,18.4911)" id="g3892" style="stroke:#ffffff;stroke-width:42.84475708000000083;stroke-miterlimit:4;stroke-opacity:1;"> <path style="fill:none;stroke:#ffffff;stroke-width:42.84475708000000083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 926.43032,239.36171 -193.60295,0 0,249.72099 188.91093,0 0,235.70728 -188.91093,0" id="path3879" inkscape:path-effect="#path-effect3881" inkscape:original-d="m 926.43032,239.36171 -193.60295,0 0,249.72099 188.91093,0 0,235.70728 -188.91093,0" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" /> <path style="fill:none;stroke:#ffffff;stroke-width:17.50670623999999975;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 1680,-27.637817 -78,82" id="path3883" inkscape:path-effect="#path-effect3885" inkscape:original-d="m 1680,-27.637817 -78,82" inkscape:connector-curvature="0" transform="matrix(2.4473339,0,0,2.4473339,-3192.4761,306.31058)" sodipodi:nodetypes="cc" /> </g> </g> </g> <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" inkscape:original-d="m 136.2513,512.37364 178.83213,0 -83.27101,68.69373 z" inkscape:path-effect="#path-effect3912" id="path3906" d="m 136.2513,512.37364 178.83213,0 -83.27101,68.69373 -95.56112,-68.69373" style="fill:none;stroke:#ffffff;stroke-width:3.83523440000000004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" /> <path style="fill:none;stroke:#ffffff;stroke-width:3.83523440000000004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;" d="m 16.080621,512.37364 178.832129,0 -83.27101,68.69373 -95.561119,-68.69373" id="path3908" inkscape:path-effect="#path-effect3910" inkscape:original-d="m 16.080621,512.37364 178.832129,0 -83.27101,68.69373 z" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" /> </g> </g> </g> </g> </g></svg>
 			</div>
-			<div class="frame1-left">
-				<div class="content">
-					<div class="sponsor-name"> GitHub Presents </div>
-					<div class="name"> Hack on Hills</div><br>
-					<div class="date"> 8 - 10 March 2019 </div><br>
-					<div class="date"> NIT Hamirpur </div>
-					<div class="devfolio">
-						<button class="devfolio">
-							<div class="button-back"></div>
-							<div class="button-text" id="devfolio-apply-now"> Apply with Devfolio </div>
-						</button>
-					</div>
-				</div>
+			<!-- MAIN LOGO END -->
+			<div class="frame1-text">
+				<span class="date"> 24-25 March | NIT Hamirpur</span>
+				Third Edition of Annual Hackathon Organised by App Team NITH.
 			</div>
 		</div>
 		<div class="frame frame2">
-			<img class="img-back-left" src="./images/back-2.svg">
-			<img class="img-back" src="./images/back-3.svg">
-			<div class="frame2-left">
-				<img src="./images/frame1-right.svg">
-			</div>
-			<div class="frame2-right">
-				<div class="name"> Diversity </div>
-				<div class="content">
-					<p>
-						Hack On Hills aims to build an environment of collaborative growth amongst all the participants regardless of their gender, caste, creed, sexual preference, socioeconomic background or cultural belief. Hack On Hills is open to everyone with a crazy idea and a will to implement it into a working prototype. 
-					</p>
-					<p>
-						Hack On Hills has always been supportive for women participation in the event, we have tried our level best to make sure that female candidates get a fair chance to put-forth their ideas and showcase their experience and talent.
-					</p>
-					<p>
-						For this, we have introduced separate prizes for best all women team and reserving some portions of seats for womens during hackathon.
-					</p>
-					<p>
-						See our Code of Conduct <a href="https://hackcodeofconduct.org/847-hack_on_hills" target="__blank">Here</a>.
-					</p>
+			<div class="rotated"></div>
+			<div class="rotated2"></div>
+			<div class="schedule">
+				<div class="top-schedule">
+					<div class="top-schedule-content register">
+						<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewbox="0 0 460.48874 622.59991" id="svg2" version="1.1" inkscape:version="0.92.2 5c3e80d, 2017-08-06" sodipodi:docname="register.svg"> <defs id="defs4"> <inkscape:path-effect effect="spiro" id="path-effect3829" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3023" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3857" is_visible="true" /> <inkscape:path-effect is_visible="true" id="path-effect3849" effect="spiro" /> <inkscape:path-effect is_visible="true" id="path-effect3814" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect3786" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3757" is_visible="true" /> </defs> <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.6065996" inkscape:cx="119.58319" inkscape:cy="281.52167" inkscape:document-units="px" inkscape:current-layer="g3866" showgrid="false" inkscape:showpageshadow="false" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" /> <metadata id="metadata7"> <rdf:RDF> <cc:Work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /> <dc:title></dc:title> </cc:Work> </rdf:RDF> </metadata> <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-131.69371,-381.17175)"> <g id="g3866" transform="translate(-16,6)"> <path sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" id="rect3759" d="m 337.71106,395.85186 47.92871,-18 45.27954,18 v 22.96436 h -93.20825 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="M 174.25891,444.48224 H 582.2139 V 963.20642 H 174.25891 Z" id="rect2985" /> <path style="fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 149.94371,410.71115 v 584.8105 H 605.93246 V 409.3603 H 441.77861 v 20.1576 H 324.90432 v -21.50844 z" id="path3755" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="m 273.85365,502.35843 a 21.613508,21.613508 0 0 1 -21.61351,21.61351 21.613508,21.613508 0 0 1 -21.61351,-21.61351 21.613508,21.613508 0 0 1 21.61351,-21.61351 21.613508,21.613508 0 0 1 21.61351,21.61351 z" id="path3766" /> <path sodipodi:nodetypes="cacccc" inkscape:connector-curvature="0" id="rect3775" d="m 214.72767,543.11092 c 0,0 25.78224,-9.50625 39.23105,-9.42445 12.80155,0.0779 37.23106,9.42445 37.23106,9.42445 v 29.70558 h -76.46211 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 365.93973,478.8685 h 165.08116 v 19.18997 H 365.93973 Z" id="rect3778" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 366.05734,518.91473 h 164.84592 v 20.3056 H 366.05734 Z" id="rect3780" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 366.0788,557.95319 h 191.81988 v 20.26266 H 366.0788 Z" id="rect3782" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 200.27356,640.27203 h 355.92572 v 25.83129 H 200.27356 Z" id="rect3812" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 201.04265,688.12146 h 251.72339 v 26.13237 H 201.04265 Z" id="rect3816" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 199.88133,841.67688 h 351.3068 v 91.94468 h -351.3068 z" id="rect3818" /> <path style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="m 230.14236,752.3584 a 13.90222,13.90222 0 0 1 -13.90222,13.90222 13.90222,13.90222 0 0 1 -13.90222,-13.90222 13.90222,13.90222 0 0 1 13.90222,-13.90222 13.90222,13.90222 0 0 1 13.90222,13.90222 z" id="path3820" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 246.38057,741.45935 h 94.9988 v 20.70235 h -94.9988 z" id="rect3822" /> <path style="fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="m 230.14236,794.3584 a 13.90222,13.90222 0 0 1 -13.90222,13.90222 13.90222,13.90222 0 0 1 -13.90222,-13.90222 13.90222,13.90222 0 0 1 13.90222,-13.90222 13.90222,13.90222 0 0 1 13.90222,13.90222 z" id="path3824" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 246.38057,783.45935 h 94.9988 v 20.70235 h -94.9988 z" id="rect3826" /> </g> </g></svg>
+					</div>
+					<div class="top-schedule-content travel">
+						<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewbox="0 0 725.03125 337.30771" id="svg2" version="1.1" inkscape:version="0.92.2 5c3e80d, 2017-08-06" sodipodi:docname="bus.svg"> <defs id="defs4"> <inkscape:path-effect effect="spiro" id="path-effect3886" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3882" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3876" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3872" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3868" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3853" is_visible="true" /> <inkscape:path-effect is_visible="true" id="path-effect3833" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect3827" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3797" is_visible="true" /> </defs> <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.74027778" inkscape:cx="213.70679" inkscape:cy="247.53569" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:showpageshadow="false" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" showborder="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" /> <metadata id="metadata7"> <rdf:RDF> <cc:Work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /> <dc:title></dc:title> </cc:Work> </rdf:RDF> </metadata> <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-7.15625,-527.38376)"> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 62.5,563.20593 c -29.420085,0 -53.09375,14.62187 -53.09375,42.75 v 162 c 0,28.12814 23.673665,50.75 53.09375,50.75 h 21.65625 c 0.693576,-25.74704 21.77298,-46.40625 47.6875,-46.40625 25.91452,0 46.99392,20.65921 47.6875,46.40625 H 550.1875 c 0.70977,-24.60567 21.78014,-44.34375 47.6875,-44.34375 25.90736,0 46.97772,19.73808 47.6875,44.34375 h 31.28125 c 29.42008,0 53.09375,-22.62186 53.09375,-50.75 V 685.11218 L 681.34375,563.39343 c -1.4854,-0.11829 -2.98158,-0.1875 -4.5,-0.1875 z" id="rect2985" inkscape:connector-curvature="0" sodipodi:nodetypes="sssscsccscssccss" /> <path inkscape:connector-curvature="0" id="path3763" d="m 636.90622,822.01699 a 39.060071,39.060071 0 0 1 -39.06007,39.06007 39.060071,39.060071 0 0 1 -39.06007,-39.06007 39.060071,39.060071 0 0 1 39.06007,-39.06007 39.060071,39.060071 0 0 1 39.06007,39.06007 z" style="fill:none;stroke:#ffffff;stroke-width:7.22882557;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3768" d="m 170.90623,820.01699 a 39.060071,39.060071 0 0 1 -39.06007,39.06007 39.060071,39.060071 0 0 1 -39.060071,-39.06007 39.060071,39.060071 0 0 1 39.060071,-39.06007 39.060071,39.060071 0 0 1 39.06007,39.06007 z" style="fill:none;stroke:#ffffff;stroke-width:7.22882557;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" /> <path style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:2.61909461;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 712.55009,741.36171 c -5.28772,0 -9.54356,4.28038 -9.54356,9.5681 v 7.13927 c 0,5.28773 4.25584,9.54357 9.54356,9.54357 h 15.25989 c 0.75686,0 1.47833,-0.0804 2.18349,-0.24534 v -25.73573 c -0.70516,-0.16497 -1.42663,-0.26987 -2.18349,-0.26987 z" id="rect3783" inkscape:connector-curvature="0" /> <path inkscape:connector-curvature="0" id="path3795" d="m 683.31707,569.35655 v 93.96248 c 0,3.19238 -0.0426,6.40002 0.41136,9.55996 0.45393,3.15995 1.48591,6.34768 3.64117,8.70271 1.25135,1.36734 2.85696,2.40768 4.61627,2.99106 1.7593,0.58339 3.6684,0.70852 5.4888,0.35978 h 32.42026" style="fill:none;stroke:#ffffff;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="rect3799" d="m 473.78296,622.74548 h 71.69112 v 194.61794 h -71.69112 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="path3825" d="M 40.157598,590.3209 H 682.61538" style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="rect3829" d="m 592.10883,613.28522 h 40.52533 c 6.73531,0 12.1576,5.42229 12.1576,12.15759 v 31.06943 c 0,6.73531 -5.42229,12.15759 -12.1576,12.15759 h -40.52533 c -6.73531,0 -12.1576,-5.42228 -12.1576,-12.15759 v -31.06943 c 0,-6.7353 5.42229,-12.15759 12.1576,-12.15759 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="path3831" d="m 39.89387,567.35655 v 95.96248 c 0,3.19238 0.04256,6.40002 -0.411365,9.55996 -0.453926,3.15995 -1.485908,6.34768 -3.641165,8.70271 -1.251351,1.36734 -2.856963,2.40768 -4.616268,2.99106 -1.759305,0.58339 -3.668399,0.70852 -5.488802,0.35978 H 9.31601" style="fill:none;stroke:#ffffff;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="rect3841" d="m 398.10883,613.28522 h 40.52533 c 6.73531,0 12.1576,5.42229 12.1576,12.15759 v 31.06943 c 0,6.73531 -5.42229,12.15759 -12.1576,12.15759 h -40.52533 c -6.73531,0 -12.1576,-5.42228 -12.1576,-12.15759 v -31.06943 c 0,-6.7353 5.42229,-12.15759 12.1576,-12.15759 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="rect3843" d="m 318.10883,613.28522 h 40.52533 c 6.73531,0 12.1576,5.42229 12.1576,12.15759 v 31.06943 c 0,6.73531 -5.42229,12.15759 -12.1576,12.15759 h -40.52533 c -6.73531,0 -12.1576,-5.42228 -12.1576,-12.15759 v -31.06943 c 0,-6.7353 5.42229,-12.15759 12.1576,-12.15759 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="rect3845" d="m 240.10883,613.28522 h 40.52533 c 6.73531,0 12.1576,5.42229 12.1576,12.15759 v 31.06943 c 0,6.73531 -5.42229,12.15759 -12.1576,12.15759 h -40.52533 c -6.73531,0 -12.1576,-5.42228 -12.1576,-12.15759 v -31.06943 c 0,-6.7353 5.42229,-12.15759 12.1576,-12.15759 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="rect3847" d="m 160.10883,613.28522 h 40.52533 c 6.73531,0 12.1576,5.42229 12.1576,12.15759 v 31.06943 c 0,6.73531 -5.42229,12.15759 -12.1576,12.15759 h -40.52533 c -6.73531,0 -12.1576,-5.42228 -12.1576,-12.15759 v -31.06943 c 0,-6.7353 5.42229,-12.15759 12.1576,-12.15759 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="rect3849" d="m 82.10883,613.28522 h 40.52533 c 6.73531,0 12.1576,5.42229 12.1576,12.15759 v 31.06943 c 0,6.73531 -5.42229,12.15759 -12.1576,12.15759 H 82.10883 c -6.735309,0 -12.157597,-5.42228 -12.157597,-12.15759 v -31.06943 c 0,-6.7353 5.422288,-12.15759 12.157597,-12.15759 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="path3851" d="M 509.26829,621.44286 V 818.66612" style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3857" d="m 142.803,820.31341 a 10.806754,10.806754 0 0 1 -10.80675,10.80676 10.806754,10.806754 0 0 1 -10.80676,-10.80676 10.806754,10.806754 0 0 1 10.80676,-10.80675 10.806754,10.806754 0 0 1 10.80675,10.80675 z" style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3859" d="m 608.803,822.31341 a 10.806754,10.806754 0 0 1 -10.80675,10.80676 10.806754,10.806754 0 0 1 -10.80676,-10.80676 10.806754,10.806754 0 0 1 10.80676,-10.80675 10.806754,10.806754 0 0 1 10.80675,10.80675 z" style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3864" d="m 16.905519,731.64791 c 2.456721,0 4.434021,6.54999 4.434021,14.64144 v 10.92476 c 0,8.09147 -1.9773,14.6039 -4.434021,14.6039 H 9.8156412 c -0.3516433,0 -0.6868449,-0.12304 -1.0144683,-0.37543 v -39.38171 c 0.3276234,-0.25244 0.662825,-0.41296 1.0144683,-0.41296 z" style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:2.20799994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path inkscape:connector-curvature="0" id="path3866" d="M 9.4559099,695.73929 H 472.7955" style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3870" d="M 545.74109,694.38845 H 729.45591" style="fill:none;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3874" d="M 9.4559099,714.65111 H 472.7955" style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3880" d="M 545.74109,713.30027 H 728.10507" style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> <path inkscape:connector-curvature="0" id="path3884" d="M 89.538947,554.58683 H 511.07643 v -25.7401 H 89.538947 Z" style="fill:none;stroke:#ffffff;stroke-width:2.92593384;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" /> </g></svg>
+					</div>
+					<div class="top-schedule-content code">
+						<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewbox="0 0 561.23846 395.75342" id="svg2" version="1.1" inkscape:version="0.92.2 5c3e80d, 2017-08-06" sodipodi:docname="register-1.svg.svg"> <defs id="defs4"> <inkscape:path-effect effect="spiro" id="path-effect3784" is_visible="true" /> <inkscape:path-effect is_visible="true" id="path-effect3780" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect3776" is_visible="true" /> </defs> <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.52345544" inkscape:cx="130.86801" inkscape:cy="-51.434843" inkscape:document-units="px" inkscape:current-layer="g3791" showgrid="false" inkscape:showpageshadow="false" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" showborder="true" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" /> <metadata id="metadata7"> <rdf:RDF> <cc:Work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /> <dc:title></dc:title> </cc:Work> </rdf:RDF> </metadata> <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-92.974492,-480.36738)"> <g id="g3791" transform="matrix(1.0400528,0,0,1.0400528,-23.28391,33.158013)"> <path style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3.84595847;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="M 159.39963,430.97382 H 588.96811 V 703.84436 H 159.39963 Z" id="rect2985" /> <path style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="M 179.66229,451.23648 H 570.05627 V 686.28339 H 179.66229 Z" id="rect3755" /> <path sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" id="rect3757" d="m 159.39963,711.30026 h 429.56848 l 58.03377,80.29643 -530.77673,-0.64915 z" style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3.84595847;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:3.84595847;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="m 181.07114,725.85674 h 383.73852 l 24.43832,35.18347 -424.72485,-0.28444 z" id="path3764" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc" /> <path inkscape:connector-curvature="0" id="rect3766" d="m 112.78125,797.26843 v 4.09375 c 0,4.49021 6.61172,8.125 14.84375,8.125 h 507.90625 c 8.23203,0 14.875,-3.63479 14.875,-8.125 v -4.0625 H 114.125 c -0.45153,0 -0.90271,-0.01 -1.34375,-0.0312 z" style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:2.88446903;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <path sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" id="rect3771" d="m 345.14071,766.69425 h 72.94561 l 8,17.50845 h -88.94561 z" style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" /> <g transform="translate(-2.8611666,0.02626585)" id="g3786" style="stroke:#ffffff;stroke-width:2.88446903;stroke-miterlimit:4;"> <path style="fill:none;stroke:#ffffff;stroke-width:2.88446903;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 338.30769,528.2346 -34.47279,41.22702 41.9287,40.52533 -5.45591,7.40337 -48.63039,-47.27955 41.82364,-49.9287 z" id="path3774" /> <path style="fill:none;stroke:#ffffff;stroke-width:2.88446903;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 417.13321,528.2346 34.47279,41.22702 -41.9287,40.52533 5.45591,7.40337 48.63039,-47.27955 -41.82364,-49.9287 z" id="path3778" /> <path style="fill:none;stroke:#ffffff;stroke-width:2.88446903;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 396.00113,512.75386 -38.64886,102.28709 7.14583,9.67252 39.37663,-103.06685 z" id="path3782" /> </g> </g> </g></svg>
+					</div>
+					<div class="top-schedule-content prize">
+						<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewbox="0 0 325.78482 576.88495" id="svg2" version="1.1" inkscape:version="0.92.2 5c3e80d, 2017-08-06" sodipodi:docname="prize-1.svg"> <defs id="defs4"> <inkscape:path-effect effect="spiro" id="path-effect3860" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3834" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3830" is_visible="true" /> <inkscape:path-effect is_visible="true" id="path-effect3828" effect="spiro" /> <inkscape:path-effect is_visible="true" id="path-effect3822" effect="spiro" /> <inkscape:path-effect is_visible="true" id="path-effect3816" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect3812" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3782" is_visible="true" /> <inkscape:path-effect effect="spiro" id="path-effect3769" is_visible="true" /> <inkscape:path-effect is_visible="true" id="path-effect3763" effect="spiro" /> <inkscape:path-effect effect="spiro" id="path-effect2991" is_visible="true" /> </defs> <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.70138889" inkscape:cx="-66.43297" inkscape:cy="290.31452" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" showborder="true" inkscape:showpageshadow="false" inkscape:snap-nodes="false" inkscape:snap-global="false" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" /> <metadata id="metadata7"> <rdf:RDF> <cc:Work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /> <dc:title></dc:title> </cc:Work> </rdf:RDF> </metadata> <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-210.43297,-405.79176)"> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="M 246.12391,980.82393 H 520.3212 V 955.74492 H 246.12391 Z" id="path2989" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="M 259.11764,946.55018 H 507.32746 V 929.06736 H 259.11764 Z" id="path3761" /> <path style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" d="M 291.07779,808.57983 H 476.6492 V 922.98997 H 291.07779 Z" id="rect3765" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="M 259.11764,800.50204 H 507.32746 V 783.01922 H 259.11764 Z" id="path3767" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="m 262.60959,407.63496 c -3.35051,16.43851 -0.23206,21.56027 -0.23206,39.72231 0,51.22806 14.37537,104.66007 37.20823,136.22392 0,0 45.14553,56.99812 55.96707,90.89331 3.59129,11.24862 5.65801,22.94262 2.3418,35.34647 -8.4596,31.64203 -76.91299,45.52924 -76.91299,45.52924 l -0.54149,16.28343 H 486.0911 l -0.81224,-18.33337 c 0,0 -74.30027,-7.57649 -86.02866,-44.48493 -3.39199,-10.67438 -3.36318,-22.51583 -0.8597,-33.3511 8.57122,-37.09702 52.73568,-101.32048 52.73568,-101.32048 17.4013,-30.43436 32.95366,-82.86226 32.95366,-126.78649 0,-18.1596 3.11759,-23.28571 -0.23207,-39.72231 z" id="path3775" inkscape:connector-curvature="0" sodipodi:nodetypes="cscasccccsacscc" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 494.85085,425.03225 h 39.51964 v 90.11864 c -4.28578,9.07258 -11.23578,16.86689 -19.75982,22.16032 -10.32478,6.41168 -22.9237,9.07376 -34.95968,7.38677" id="path3810" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 495.21914,439.08255 h 25.32688 v 69.04369 c -3.22437,6.98588 -8.56669,12.9772 -15.13883,16.97795 -6.51491,3.96591 -14.21218,5.96108 -21.8333,5.65931" id="path3818" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 251.82827,425.03225 h -39.51964 v 90.11864 c 4.28578,9.07258 11.23578,16.86689 19.75982,22.16032 10.32478,6.41168 22.9237,9.07376 34.95968,7.38677" id="path3824" /> <path style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="M 251.45998,439.08255 H 226.1331 v 69.04369 c 3.22437,6.98588 8.56669,12.9772 15.13884,16.97795 6.51491,3.9659 14.21218,5.96108 21.83329,5.65931" id="path3826" /> <path style="fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 293.89052,408.86576 h 64.8994 v 135.87698 l -31.44069,-26.34435 -32.40634,24.04353 z" id="path3832" /> <path style="fill:none;stroke:#ffffff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="m 347.40134,479.91818 -14.12773,0.21543 -7.02736,12.25787 -7.25043,-12.12726 -14.1293,0.0431 6.8773,-12.34269 -7.10195,-12.2148 14.12773,-0.21543 7.02736,-12.25787 7.25043,12.12726 14.12931,-0.0431 -6.8773,12.34269 z" id="path3852" /> <path style="fill:none;stroke:#ffffff;stroke-width:2.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="m 371.37729,845.56561 15.33522,-10.55877 v 57.01731 h 12.31277 v 4.5388 h -30.32361 v -4.2235 h 11.76774 v -48.67294 l -8.64619,6.59922 z" id="path3858" /> </g></svg>
+					</div>
+				</div><div class="divider">
+					<div class="divider-left inactive">&lt;&lt;&nbsp;&nbsp;Prev</div>
+					<div class="divider-middle"></div>
+					<div class="divider-right">Next&nbsp;&nbsp;&gt;&gt;</div>
+				</div><div class="bottom-schedule">
+					<div class="bottom-schedule-content">
+						<h2> Registration Phase<br>( 25th February - 20th March )</h2>
+						<div class="schedule-content">
+							<h4>Welcome coders, hackers and developers to HackOnHills 2018!</h4>
+						</div>
+						<div class="schedule-content">To participate, firstly you need to register your team through online registration. The details mentioned must be accurate as they would later be significant while awarding prizes. </div>
+						<div class="schedule-content">For registration, follow the following link : &nbsp;&nbsp;<a href="https://goo.gl/forms/DtEIDX0GwihIArpb2" target="__blank">https://goo.gl/forms/DtEIDX0GwihIArpb2</a></div>
+					</div>
+					<div class="bottom-schedule-content">
+						<h2> Pre Hackathon Meeting <br> ( 23rd March ) </h2>
+						<div class="schedule-content">All the registered teams are requested to be present at the campus of NIT Hamirpur, atleast a day before the commencement of the hackathon. Any team having any query, can contact us through, </div>
+						<div class="schedule-content">Contact : +91 9882546092</div>
+						<div class="schedule-content">Email : <a href="mailto:hackonhills@gmail.com">hackonhills@gmail.com</a></div>
+					</div>
+					<div class="bottom-schedule-content">
+						<h2> Coding Phase <br> ( 24th - 25th March ) </h2>
+						<div class="schedule-content"><h3>Eat! Sleep! Code! Repeat!</h3></div>
+						<div class="schedule-content">The following two days will be shear programming, hacking and developing. All the projects are to be designed and developed in these two days. There will be regular assessment of your work by our experts.</div>
+						<div class="schedule-content">At the conclusion of these two days, every team has to present their project before the judges.</div>
+					</div>
+					<div class="bottom-schedule-content">
+						<h2> Prize Distribution <br> ( 25th March ) </h2>
+						
+						<div class="schedule-content">The winner(s) of HackOnHills 2018 will be announced on 25th March 2018 and the prizes will be distributed. </div>
+
+						<div class="schedule-content"><h3>It is not about just winning, hackathons are where your crazy idea becomes reality!</h3></div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="frame frame3">
-			<img src="./images/back-4.svg" class="img-back">
-			<img src="./images/back-5.svg" class="img-back-bottom">
-			<div class="frame5-content">
-				<div class="name"> Tracks </div>
-				<div class="track-icons">
-					<div class="a-track">
-						<div class="colorless">
-							<img src="./images/Tracks/blockchain.svg">
-						</div>
-						<div class="colorful">
-							<img src="./images/Tracks/blockchain-color.svg">
-						</div>
-						<div class="track-name">
-							Blockchain
-						</div>
-					</div>
-					<div class="a-track">
-						<div class="colorless">
-							<img src="./images/Tracks/iot.svg">
-						</div>
-						<div class="colorful">
-							<img src="./images/Tracks/iot-color.svg">
-						</div>
-						<div class="track-name">
-							IoT
-						</div>
-					</div>
-					<div class="a-track">
-						<div class="colorless">
-							<img src="./images/Tracks/ai.svg">
-						</div>
-						<div class="colorful">
-							<img src="./images/Tracks/ai-color.svg">
-						</div>
-						
-						<div class="track-name">
-							AI
-						</div>
-					</div>
-					<div class="a-track">
-						<div class="colorless">
-							<img src="./images/Tracks/webapp.svg">
-						</div>
-						<div class="colorful">
-							<img src="./images/Tracks/webapp-color.svg">
-						</div>
-						<div class="track-name">
-							Web&nbsp;/&nbsp;App
-						</div>
-					</div>
-					<div class="a-track">
-						<div class="colorless">
-							<img src="./images/Tracks/vr.svg">
-						</div>
-						<div class="colorful">
-							<img src="./images/Tracks/vr-color.svg">
-						</div>
-						<div class="track-name">
-							AR&nbsp;/&nbsp;VR
-						</div>
-					</div>
-					<div class="a-track">
-						<div class="colorless">
-							<img src="./images/Tracks/general.svg">
-						</div>
-						<div class="colorful">
-							<img src="./images/Tracks/general-color.svg">
-						</div>
-						<div class="track-name">
-							General
-						</div>
-					</div>
-				</div>
+			<div class="rotated"></div>
+			<div class="rotated2"></div>
+			<div class="gallery">
+				<img src="./images/Gallery/1.jpg">
+				<img src="./images/Gallery/2.jpg">
+				<img src="./images/Gallery/3.jpg">
+				<img src="./images/Gallery/4.jpg">
+				<img src="./images/Gallery/5.jpg">
+				<img src="./images/Gallery/6.jpg">
 			</div>
 		</div>
 		<div class="frame frame4">
-			<img class="img-back-left" src="./images/back-3.svg">
-			<img class="img-back" src="./images/back-2.svg">
-			<div class="frame4-left">
-				<img src="./images/frame2-right.svg">
-			</div>
-			<div class="frame4-right">
-				<div class="name"> Timeline </div>
-				<div class="timeline">
-					<div class="schedule schedule-1">
-						<div class="dot"></div>
-						<div class="schedule-content">
-							<div class="schedule-date"> 8th March 2019 </div>
-							<div class="schedule-title"> Opening Ceremony and Pre Hackathon meet </div>
-							<div class="schedule-text"> All the registered teams are requested to be present at the campus of NIT Hamirpur, atleast a day before the commencement of the hackathon. </div>
-						</div>
-					</div>
-					<div class="schedule schedule-2">
-						<div class="dot"></div>
-						<div class="schedule-content">
-							<div class="schedule-date"> 9th March 2019 </div>
-							<div class="schedule-title"> Hacking begins </div>
-							<div class="schedule-text"> Eat! Sleep! Code! Repeat!<br>The following two days will be shear programming, hacking and developing. All the projects are to be designed and developed in these two days. There will be regular assessment of your work by our experts.</div>
-						</div>
-					</div>
-					<div class="schedule schedule-3">
-						<div class="dot"></div>
-						<div class="schedule-content">
-							<div class="schedule-date"> 10th March 2019 </div>
-							<div class="schedule-title"> Presentation and Judgement </div>
-							<div class="schedule-text"> The winner(s) of HackOnHills 2019 will be announced on 10th March 2019 and the prizes will be distributed. </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="frame frame5">
-			<img src="./images/back-4.svg" class="img-back">
-			<img src="./images/back-5.svg" class="img-back-bottom">
-			<div class="frame5-content">
-				<div class="name"> Sponsors </div>
-				<div class="sponsor-icons">
-					<div class="sponsor-icon main-sponsor">
-						<a href="http://github.com/" target="__blank"><img src="./images/Sponsors/GitHub_Logo.png"></a>
-					</div>
-					<div class="sponsor-icon square-icon">
-						<a href="https://zulipchat.com/" target="__blank"><img src="./images/Sponsors/zulip-logo.png"></a>
-					</div>
-					<div class="sponsor-icon square-icon">
-						<a href="https://www.jetbrains.com/" target="__blank"><img src="./images/Sponsors/JetBrains-Logo.svg"></a>
-					</div>
-					<div class="sponsor-icon middle-icon">
-						<a href="https://www.producthunt.com/" target="__blank"><img src="./images/Sponsors/product-hunt.png"></a>
-					</div>
-					<div class="sponsor-icon">
-						<a href="https://matic.network/" target="__blank"><img src="./images/Sponsors/Matic_Logo.png"></a>
-					</div>
-					<div class="sponsor-icon">
-						<a href="https://hasura.io/" target="__blank"><img src="./images/Sponsors/hasura_logo_horizontal_black.png"></a>
-					</div>
-					<div class="sponsor-icon">
-						<a href="https://devfolio.co/" target="__blank"><img src="./images/Sponsors/devfolio.png"></a>
-					</div>
-					<div class="sponsor-icon">
-						<a href="https://www.bugsee.com/" target="__blank"><img src="./images/Sponsors/bugsee.png"></a>
-					</div>
-					<div class="sponsor-icon">
-						<a href="http://festpav.com/" target="__blank"><img src="./images/Sponsors/festpav.png"></a>
-					</div>
-				</div>
-				<!-- <div class="name"> Patrons </div>
-				<div class="sponsor-icons">
-
-				</div> -->
-				<!-- <div class="name"> Past Sponsors </div>
+			<div class="rotated"></div>
+			<div class="rotated2"></div>
+			<div class="frame4-content">
+				<h1> Sponsors </h1>
 				<div class="sponsor-icons">
 					<div class="sponsor-icon main-sponsor">
 						<a href="https://fossbytes.com/" target="__blank"><img src="./images/Sponsors/fossbytes.png"></a>
@@ -275,7 +152,7 @@
 						<a href="https://www.rawthreads.in/" target="__blank"><img src="./images/Sponsors/rawthreads.png"></a>
 					</div>
 				</div>
-				<div class="name"> Past Media Partners </div>
+				<h1> Media Partners </h1>
 				<div class="sponsor-icons">
 					<div class="sponsor-icon">
 						<a href="http://dubeat.com/" target="__blank"><img src="./images/Sponsors/dubeat.png"></a>
@@ -283,20 +160,20 @@
 					<div class="sponsor-icon">
 						<a href="http://festpav.com/" target="__blank"><img src="./images/Sponsors/festpav.png"></a>
 					</div>
-				</div> -->
-				<div class="frame5-text">
+				</div>
+				<div class="frame4-text">
 					Interested in making 'Hack on Hills' a huge success.<br>
 					Come join us by sponsoring us. Check the &nbsp;<a href="./pdf/sponsorship-brochure.pdf" target="__blank">Sponsorship Brochure</a>&nbsp; for more details.
 				</div>
 			</div>
 		</div>
-		<div class="frame frame6">
-			<img src="./images/back-6.svg" class="img-back-left">
-			<img src="./images/back-7.svg" class="img-back-right">
-			<div class="frame6-content">
-				<div class="name">
+		<div class="frame frame5">
+			<div class="rotated"></div>
+			<div class="rotated2"></div>
+			<div class="frame5-content">
+				<h1>
 					FAQs
-				</div>
+				</h1>
 				<div class="faq">
 					<div class="question">
 						Is this hackathon an online event or offline?
@@ -304,7 +181,7 @@
 					<div class="answer">
 						Hack on hills is offline event and as a participant you need to be present at NIT Hamirpur campus one or two day before the event at least.
 					</div>
-
+				
 				</div>
 				<div class="faq">
 					<div class="question">
@@ -349,24 +226,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="frame frame7">
+		<div class="frame frame6">
 			<div class="footer-icons">
 				<a href="https://github.com/appteam-nith/HackOnHills" target="__blank"><img src="./images/github.svg"></a>
 				<a href="https://www.facebook.com/hackonhills/" target="__blank"><img src="./images/fb.svg"></a>
 				<a href="https://www.instagram.com/hackonhills/" target="__blank"><img src="./images/insta.svg"></a>
-				<a href="https://twitter.com/hackonhills" target="__blank"><img src="./images/twitter.svg"></a>
-				<a href="https://www.linkedin.com/company/hack-on-hills/" target="__blank"><img src="./images/linkedin.svg"></a>
 				<a href="mailto:hackonhills@gmail.com"><img src="./images/email.svg"></a>
 			</div>
 			<div class="footer-text">
-				<a href="https://hackcodeofconduct.org/847-hack_on_hills" target="__blank"> Code of Conduct </a>
+				&copy; 2018 Team Hack on Hills
 			</div>
-			<div class="footer-text">
-				&copy; 2019 Team Hack on Hills
-			</div>
-			Made with &nbsp;&nbsp;<span class="heart">❤️</span>
+			Made with &nbsp;&nbsp;<span class="heart">❤️</span>&nbsp;&nbsp; in MMH.
 		</div>
 	</div>
-	<script type="text/javascript" src="./js/menu.js"></script>
+	<script src="./js/menu.js"></script>
+	<script src="./js/snowfall.js"></script>
+	<script src="./js/schedule.js"></script>
 </body>
 </html>
