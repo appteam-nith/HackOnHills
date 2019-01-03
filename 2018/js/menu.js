@@ -10,13 +10,6 @@
 	var active = 0, headerOpened = false;
 
 	function closeHeader(){
-		for(let i=0; i<=navItems.length; ++i){
-			setTimeout(function(){
-				//navItems[i].addClass("visible");
-				$(navItems[i]).removeClass("visible");
-			}, 0);
-		}
-
 		header.removeClass('active');
 		content.removeClass('active');
 		fullOverlay.removeClass('active');
@@ -28,14 +21,6 @@
 		content.addClass('active');
 		fullOverlay.addClass('active');
 		body.addClass('active');
-
-		for(let i=0; i<navItems.length; ++i){
-			setTimeout(function(){
-				//navItems[i].addClass("visible");
-				$(navItems[i]).addClass("visible");
-			}, i*100);
-		}
-
 	});
 
 	fullOverlay.click(closeHeader);
