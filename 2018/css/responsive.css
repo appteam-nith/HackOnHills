@@ -74,6 +74,22 @@
 		top: 40%;
 		right: -10%;
 	}
+
+	.frame3 .track-icons {
+		width: 70%;
+	}
+
+	.frame3 .a-track {
+		width: 100%;
+	}
+
+	.frame3 .track-name {
+		font-size: 1em;
+	}
+
+	.frame4-right {
+		left: 0px;	
+	}
 }
 
 @media(max-width: 949px){
@@ -110,6 +126,7 @@
 		position: relative;
 		width: 100%;
 		height: auto;
+		padding: 0px 10px;
 	}
 
 	.frame1-left .name {
@@ -120,11 +137,16 @@
 		font-size: 1em;
 	}
 
+	.sponsor-name {
+		font-size: 1.2em;
+	}
+
 	.frame2-right, .frame4-right {
 		position: relative;
 		width: 100%;
 		height: auto;
 		padding: 0px;
+		left: 0px;
 	}
 
 	.frame2-left img, .frame4-left img {
@@ -144,7 +166,11 @@
 		height: auto;
 	}
 
-	.frame2-right, .frame4-right {
+	.frame2-right {
+		padding: 0px 20px;
+	}
+
+	.frame4-right {
 		padding-left: 30px;
 	}
 
@@ -176,6 +202,20 @@
 
 	body.active {
 		overflow: hidden;
+	}
+
+	.frame3 .a-track {
+		width: 40%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+
+	.frame3 .track-icons {
+		width: 70%;
+	}
+
+	.frame3 .track-name {
+		font-size: 1em;
 	}
 }
 

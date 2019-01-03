@@ -281,6 +281,14 @@ body {
     display: flex;
 }
 
+.sponsor-name {
+	color: white;
+	font-family: 'Didact Gothic';
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.8);
+}
+
 /***********************
 	DIVERSITY PAGE
 ***********************/
@@ -292,9 +300,9 @@ body {
 
 .frame2-left {
 	position: absolute;
-	left: 0px;
+	right: 0px;
 	width: 50%;
-	height: 100%;
+	min-height: 100%;
 	display: inline-block;
 	z-index: 3;
 	padding: 50px 10px;
@@ -303,11 +311,11 @@ body {
 
 .frame2-right {
 	width: 50%;
-	height: 100%;
+	min-height: 100%;
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	text-align: center;
-	right: 0px;
+	left: 0px;
 	z-index: 3;
 	padding: 20px;
 }
@@ -322,7 +330,7 @@ body {
 .frame2-left img {
 	width: 70%;
 	position: absolute;
-	left: 20%;
+	left: 10%;
 	top: 10%;
 	height: auto;
 }
@@ -350,6 +358,15 @@ body {
 	text-align: justify;
 	padding: 30px 50px;
 	line-height: 1.4em;
+}
+
+.frame2 a {
+	color: black;
+	text-decoration: none;
+}
+
+.frame2 a:visited {
+	color: black;
 }
 
 /***********************
@@ -388,72 +405,55 @@ body {
 	margin-bottom: 30px;
 }
 
-.frame3 .sponsor-icons {
+.frame3 .track-icons {
 	width: 80%;
-	background-color: rgba(255,255,255,0.9);
-	padding: 20px;
 	display: inline-block;
-	margin-bottom: 20px;
-	/*box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);*/
-	text-align: center;
 }
 
-.sponsor-icons .sponsor-icon {
+.frame3 .a-track {
 	width: 30%;
-	display: inline-block;
-	padding: 10px 0px;
-	vertical-align: middle;
-}
-
-.sponsor-icons .sponsor-icon.main-sponsor {
-	width: 100%;
-	display: block;
 	text-align: center;
-}
-
-.sponsor-icons .sponsor-icon.main-sponsor img {
-	width: 40%;
-	height: auto;
-}
-
-.sponsor-icons .sponsor-icon.square-icon img {
-	width: 45%;
-	height: auto;
-}
-
-.sponsor-icons .sponsor-icon.middle-icon img {
-	width: 60%;
-	height: auto;
-}
-
-.sponsor-icons .sponsor-icon img {
-	width: 80%;
-	height: auto;
-}
-
-.frame3-content {
-	z-index: 3;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	position: relative;
 }
 
-.frame3-text {
-	padding: 0px 10px;
+.frame3 .colorless {
+	position: relative;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+	padding: 20px;
 }
 
-.frame3 a {
-	color: white;
+.frame3 .colorful {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	width: 100%;
+	padding: 20px;
+	opacity: 0;
 }
 
-.sponsor-icons .sponsor-icon.advantIcon img {
+.frame3 .a-track:hover .colorful {
+	opacity: 1;
+}
+
+.frame3 .a-track img {
 	width: 50%;
 }
 
-.sponsor-icons .sponsor-icon.rawIcon img {
-	width: 40%;
-}
-
-.sponsorTitle {
-	color: #10333c;
+.frame3 .track-name {
+	font-size: 1.1em;
+	padding: 20px 0px;
+	font-family: 'primetime';
+	color: #669999;
+	/*font-weight: bold;*/
 }
 
 /***********************
@@ -480,9 +480,9 @@ body {
 .frame4-right {
 	width: 50%;
 	display: inline-block;
-	position: absolute;
+	position: relative;
+	left: 50%;
 	text-align: center;
-	right: 0px;
 	z-index: 3;
 	padding: 20px;
 }
@@ -659,6 +659,7 @@ body {
 }
 
 .frame5-text {
+	font-size: 1.2em;
 	padding: 0px 10px;
 }
 
@@ -762,6 +763,11 @@ body {
 
 .footer-text {
 	padding: 5px;
+}
+
+.footer-text a {
+	color: white;
+	text-decoration: none;
 }
 
 .frame7 img {
