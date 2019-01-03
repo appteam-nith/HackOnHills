@@ -126,6 +126,7 @@
 		position: relative;
 		width: 100%;
 		height: auto;
+		padding: 0px 10px;
 	}
 
 	.frame1-left .name {
@@ -165,7 +166,11 @@
 		height: auto;
 	}
 
-	.frame2-right, .frame4-right {
+	.frame2-right {
+		padding: 0px 20px;
+	}
+
+	.frame4-right {
 		padding-left: 30px;
 	}
 
