@@ -722,6 +722,11 @@ body {
 	color: #293d3d;
 }
 
+.answer a{
+	text-decoration: none; 
+	color: #293d3d;
+}
+
 .frame6 .img-back-left {
 	width: 600px;
 	height: auto;

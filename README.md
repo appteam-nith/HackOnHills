@@ -2,19 +2,13 @@
 
 <img src="https://github.com/appteam-nith/HackOnHills/raw/master/images/new_logo.png" width="250">
 
-This repository will hold the source code for the official website of annual hackathon named **"Hack On Hills"** organized by AppTeam NITH.
+This repository holds the source code for the official website of annual hackathon named **"Hack On Hills"** organized by AppTeam NITH.
+
+The latest code is hosted at https://hackonhills.com and the archived source code is hosted at https://hackonhills.com/2018/
 
 Contributors are always welcome :smile:
 
-For any queries, open issues on this repository or email directly at hackonhills@gmail.com
-
-### TODOS :-
- - [x] Website: Live
- - [x] Upload Sponsors' Brochure
- - [ ] Add Other Content
- - [X] FAQs
- - [ ] Contacts
-
+For any queries, open issues on this repository or email us directly at hackonhills@gmail.com
 
 ## License
 This project is currently licensed under the GNU General Public License v3
