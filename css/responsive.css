@@ -90,6 +90,10 @@
 	.frame4-right {
 		left: 0px;	
 	}
+
+	.sponsor-icons .sponsor-icon img {
+		width: 70%;
+	}
 }
 
 @media(max-width: 949px){
