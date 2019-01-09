@@ -177,7 +177,7 @@ body {
 .frame1-left .content {
 	text-align: left;
 	display: inline-block;
-	width: max-content;
+	width: auto;
 	position: relative;
 	top: 20%;
 }
