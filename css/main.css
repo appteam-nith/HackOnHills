@@ -220,11 +220,6 @@ body {
 	transition: 0.3s;
 }
 
-.frame1-left .devfolio button .button-text {
-	position: relative;
-	z-index: 1;
-}
-
 .frame1-left .devfolio button .button-back {
 	background-color: rgba(255,255,255,0.8);
 	width: 0%;
@@ -233,10 +228,11 @@ body {
 	height: 46px;
 	top: 0px;
 	left: 0px;
-	z-index: 0;
+	z-index: -1;
 	-webkit-transition: width 0.3s;
 	-moz-transition: width 0.3s;
 	transition: width 0.3s;
+
 }
 
 .frame1-left .devfolio button:hover {
@@ -265,15 +261,16 @@ body {
 }
 
 #devfolio-apply-now .logo {
-    /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
     fill: white;
 }
 
-.frame1-left .devfolio button:hover #devfolio-apply-now .logo {
-    /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
+#devfolio-apply-now:hover .logo {
     fill: #669999;
 }
 
+#devfolio-apply-now:hover {
+    color: #669999;
+}
 
 #devfolio-apply-now {
     display: -ms-flexbox;

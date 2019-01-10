@@ -26,11 +26,14 @@
 
 			script.onload = function () {
 					new Devfolio(devfolioOptions);
+					let e1 = document.createElement('div');
+					e1.className = "button-back";
+					document.getElementById("devfolio-apply-now").appendChild(e1);
 			}
 
 			script.onerror = function () {
 					document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-							window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+						window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
 					});
 			}
 		});
@@ -74,10 +77,7 @@
 					<div class="date"> 8 - 10 March 2019 </div><br>
 					<div class="date"> NIT Hamirpur </div>
 					<div class="devfolio">
-						<button class="devfolio">
-							<div class="button-back"></div>
-							<div class="button-text" id="devfolio-apply-now"> Apply with Devfolio </div>
-						</button>
+						<button id="devfolio-apply-now"> Apply With Devfolio </button>
 					</div>
 				</div>
 			</div>
