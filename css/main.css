@@ -286,6 +286,22 @@ body {
 	color: rgba(255,255,255,0.8);
 }
 
+.github-home-icon {
+	width: 100px;
+	margin-right: 10px;
+}
+
+.app-team-icon {
+	width: 70px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.app-team-icon img {
+	width: 100%;
+}
+
 /***********************
 	DIVERSITY PAGE
 ***********************/
