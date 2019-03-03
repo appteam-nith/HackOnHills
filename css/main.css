@@ -150,7 +150,7 @@ body {
 ***********************/
 
 .frame1 {
-	height: 120%;
+	height: 110%;
 	background-color: #669999;
 }
 
@@ -179,7 +179,10 @@ body {
 	display: inline-block;
 	width: auto;
 	position: relative;
-	top: 20%;
+	/*top: 20%;*/
+	top: 40%;
+	height: auto;
+	transform: translateY(-50%);
 }
 
 .frame1-left .name {
@@ -254,10 +257,13 @@ body {
 
 .frame1-right img {
 	width: 80%;
-	position: absolute;
+	/*position: absolute;*/
 	left: 10%;
-	top: 10%;
+	/*top: 10%;*/
 	height: auto;
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
 }
 
 #devfolio-apply-now .logo {
@@ -307,7 +313,7 @@ body {
 ***********************/
 
 .frame2 {
-	min-height: 100%;
+	/*min-height: 100%;*/
 	margin-bottom: 30px;
 }
 
@@ -474,7 +480,7 @@ body {
 ***********************/
 
 .frame4 {
-	min-height: 100%;
+	/*min-height: 100%;*/
 	height: auto;
 	margin-bottom: 30px;
 }
@@ -508,10 +514,12 @@ body {
 }
 
 .frame4-left img {
-	width: 70%;
+	width: 80%;
 	position: absolute;
-	left: 20%;
-	top: 10%;
+	left: 10%;
+	/*top: 10%;*/
+	top: 60%;
+	transform: translateY(-50%);
 	height: auto;
 }
 
@@ -583,6 +591,10 @@ body {
 
 .schedule-3 .schedule-content {
 	border-bottom: none;
+}
+
+.schedule-time {
+	font-weight: bold;
 }
 
 /***********************
@@ -762,7 +774,7 @@ body {
 
 .frame7 {
 	position: relative;
-	widows: 100%;
+	/*widows: 100%;*/
 	padding: 30px 0px;
 	background-color: #669999;
 	text-align: center;

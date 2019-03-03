@@ -116,6 +116,7 @@
 
 	.frame1-left .content {
 		text-align: center;
+		transform: none;
 	}
 
 	.frame1-right {
@@ -129,6 +130,7 @@
 	.frame1-right img {
 		position: static;
 		width: 60%;
+		transform: none;
 	}
 
 	.frame2-left, .frame4-left {
@@ -160,6 +162,7 @@
 
 	.frame2-left img, .frame4-left img {
 		position: static;
+		transform: none;
 	}
 
 	.frame2 .img-back-left, .frame4 .img-back-left {
