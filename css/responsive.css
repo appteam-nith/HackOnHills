@@ -99,6 +99,11 @@
 	.sponsor-icons .sponsor-icon.dev-icon img {
 		width: 90%;
 	}
+
+	.prize {
+		width: 90%;
+		margin: 5%;
+	}
 }
 
 @media(max-width: 949px){
@@ -228,6 +233,11 @@
 
 	.frame3 .track-name {
 		font-size: 1em;
+	}
+
+	.prize {
+		width: 45%;
+		margin: 2.5%;
 	}
 }
 
