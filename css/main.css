@@ -768,6 +768,7 @@ body {
 
 .prize-img {
 	padding: 20px;
+	text-align: center;
 }
 
 .prize-img img {
@@ -783,6 +784,10 @@ body {
 	padding: 10px 15px;
 	width: 100%;
 	align-self: flex-end;
+}
+
+.prize-img img.img-square {
+	width: 50%;
 }
 
 /***********************
