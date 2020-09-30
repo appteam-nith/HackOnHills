@@ -81,6 +81,12 @@ body {
 	padding: 20px;
 }
 
+.schedule-text {
+	font-size: 1.1em;
+	margin-top: 5px;
+	color: #293d3d;
+}
+
 .header .nav .head .closeHeader {
 	cursor: pointer;
 }
