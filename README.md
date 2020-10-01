@@ -1,4 +1,4 @@
-# Hack On Hills
+# Hack On Hills - Really Amazing $$$
 
 <img src="https://github.com/appteam-nith/HackOnHills/raw/master/images/new_logo.png" width="250">
 
